@@ -1,0 +1,773 @@
+[
+  {
+    "kind": "视觉确认严重缺面",
+    "scene_id": "hm3d/train/00636-FXuXGH9YQTW/FXuXGH9YQTW.basis.glb",
+    "episode_id": "hm3d__FXuXGH9YQTW__semantic_791537a5",
+    "source_name": "supplement",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/supplement-20261111/",
+    "child_run": "hm3d_r23_k3_bin1_supplement_20261111_scene_a9b98cd8f037",
+    "shard_id": "FXuXGH9YQTW__00000",
+    "quality_score": 4.9,
+    "pre_visual_review_quality_score": 9.24,
+    "hard_errors": [
+      "ai_visual_severe_geometry"
+    ],
+    "suspicious": [],
+    "review": [],
+    "path_length_m": 7.043378087236731,
+    "duration_sec": 20.5,
+    "raw_frames": 42,
+    "video": "cb971c8dd7b87966.mp4",
+    "trajectory_plot": "cb971c8dd7b87966-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "同高度 NavMesh 网格",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "视觉确认严重缺面",
+    "scene_id": "hm3d/train/00446-tL6i2PtktSh/tL6i2PtktSh.basis.glb",
+    "episode_id": "hm3d__tL6i2PtktSh__semantic_083c8414",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_3e736978131d",
+    "shard_id": "tL6i2PtktSh__00000",
+    "quality_score": 4.9,
+    "pre_visual_review_quality_score": 9.01,
+    "hard_errors": [
+      "ai_visual_severe_geometry"
+    ],
+    "suspicious": [],
+    "review": [],
+    "path_length_m": 3.013047105471344,
+    "duration_sec": 9.5,
+    "raw_frames": 20,
+    "video": "f081bb4aadd26855.mp4",
+    "trajectory_plot": "f081bb4aadd26855-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "视觉确认严重缺面",
+    "scene_id": "hm3d/train/00639-AwL2QGztLwV/AwL2QGztLwV.basis.glb",
+    "episode_id": "hm3d__AwL2QGztLwV__semantic_f8712149",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_bdbe17126968",
+    "shard_id": "AwL2QGztLwV__00015",
+    "quality_score": 4.9,
+    "pre_visual_review_quality_score": 7.08,
+    "hard_errors": [
+      "ai_visual_severe_geometry"
+    ],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 5.506610235808044,
+    "duration_sec": 16.5,
+    "raw_frames": 34,
+    "video": "e9300011decdb129.mp4",
+    "trajectory_plot": "e9300011decdb129-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "保留样例",
+    "scene_id": "hm3d/train/00063-KsD3yx9nZCv/KsD3yx9nZCv.basis.glb",
+    "episode_id": "hm3d__KsD3yx9nZCv__semantic_000ad7fe",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_0125be94035a",
+    "shard_id": "KsD3yx9nZCv__00000",
+    "quality_score": 8.73,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 9.486589661980254,
+    "duration_sec": 29.5,
+    "raw_frames": 60,
+    "video": "b9e005bddb11b989.mp4",
+    "trajectory_plot": "b9e005bddb11b989-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "评分边界样例",
+    "scene_id": "hm3d/train/00063-KsD3yx9nZCv/KsD3yx9nZCv.basis.glb",
+    "episode_id": "hm3d__KsD3yx9nZCv__semantic_0c992e4f",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_0125be94035a",
+    "shard_id": "KsD3yx9nZCv__00014",
+    "quality_score": 7.04,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 3.035257030832662,
+    "duration_sec": 14.0,
+    "raw_frames": 29,
+    "video": "d1b701a4bf25bca6.mp4",
+    "trajectory_plot": "d1b701a4bf25bca6-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "实际规则过滤样例",
+    "scene_id": "hm3d/train/00063-KsD3yx9nZCv/KsD3yx9nZCv.basis.glb",
+    "episode_id": "hm3d__KsD3yx9nZCv__semantic_0024af90",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_0125be94035a",
+    "shard_id": "KsD3yx9nZCv__00000",
+    "quality_score": 4.9,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [
+      "extended_turn_gt_95"
+    ],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 4.705727673707193,
+    "duration_sec": 22.5,
+    "raw_frames": 46,
+    "video": "57a56a2478f1fde8.mp4",
+    "trajectory_plot": "57a56a2478f1fde8-trajectory.png",
+    "branch_metrics": {},
+    "merge_examples": [],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "K32 较低重建误差",
+    "scene_id": "hm3d/train/00744-1S7LAXRdDqK/1S7LAXRdDqK.basis.glb",
+    "episode_id": "hm3d__1S7LAXRdDqK__semantic_4eaa5b45",
+    "source_name": "supplement",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/supplement-20261111/",
+    "child_run": "hm3d_r23_k3_bin1_supplement_20261111_scene_8569d9506048",
+    "shard_id": "1S7LAXRdDqK__00001",
+    "quality_score": 7.79,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 6.279370334588294,
+    "duration_sec": 18.0,
+    "raw_frames": 37,
+    "video": "2ee7cb1ea414f6d8.mp4",
+    "trajectory_plot": "2ee7cb1ea414f6d8-trajectory.png",
+    "branch_metrics": {
+      "k32": {
+        "ade_m": 0.02139014618975372,
+        "fde_m": 0.021445930837499533,
+        "nodes": 25
+      },
+      "k64": {
+        "ade_m": 0.16484132661139628,
+        "fde_m": 0.2584724021476985,
+        "nodes": 25
+      },
+      "rvq": {
+        "ade_m": 0.03916348406162792,
+        "fde_m": 0.05051981486751574,
+        "nodes": 25
+      }
+    },
+    "merge_examples": [
+      {
+        "label": "起步",
+        "image": "2ee7cb1ea414f6d8-merge-0-0.jpg",
+        "raw_frames": [
+          0,
+          1,
+          2
+        ],
+        "video_pts_sec": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "from_retained_node": 0,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0,
+          -0.0,
+          -0.07163335997493192
+        ],
+        "merged_gt_local": [
+          0.0,
+          -0.0,
+          -0.39259830439300014
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "最接近中段的实际合并（边 11→12）",
+        "image": "2ee7cb1ea414f6d8-merge-1-11.jpg",
+        "raw_frames": [
+          17,
+          18,
+          19
+        ],
+        "video_pts_sec": [
+          8.5,
+          9.0,
+          9.5
+        ],
+        "from_retained_node": 11,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0526042833325685,
+          -5.0306980803327406e-17,
+          0.0
+        ],
+        "merged_gt_local": [
+          0.29892104664920266,
+          2.7755575615628914e-17,
+          0.0
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "末端",
+        "image": "2ee7cb1ea414f6d8-merge-2-23.jpg",
+        "raw_frames": [
+          34,
+          35,
+          36
+        ],
+        "video_pts_sec": [
+          17.0,
+          17.5,
+          18.0
+        ],
+        "from_retained_node": 23,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.13243769673526584,
+          -1.7937040741600185e-15,
+          -4.440892098500626e-16
+        ],
+        "merged_gt_local": [
+          0.1986541336352085,
+          -1.7555401576885288e-15,
+          0.0
+        ],
+        "recorded_duration_sec": 1.0
+      }
+    ],
+    "background": "同高度 NavMesh 网格",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "K64 较低重建误差",
+    "scene_id": "hm3d/train/00744-1S7LAXRdDqK/1S7LAXRdDqK.basis.glb",
+    "episode_id": "hm3d__1S7LAXRdDqK__semantic_493175d6",
+    "source_name": "supplement",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/supplement-20261111/",
+    "child_run": "hm3d_r23_k3_bin1_supplement_20261111_scene_8569d9506048",
+    "shard_id": "1S7LAXRdDqK__00000",
+    "quality_score": 9.77,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [],
+    "path_length_m": 3.3392622835214,
+    "duration_sec": 14.5,
+    "raw_frames": 30,
+    "video": "585918d5f4da1066.mp4",
+    "trajectory_plot": "585918d5f4da1066-trajectory.png",
+    "branch_metrics": {
+      "k32": {
+        "ade_m": 0.08554565464196028,
+        "fde_m": 0.12942604823059217,
+        "nodes": 20
+      },
+      "k64": {
+        "ade_m": 0.038644914923662455,
+        "fde_m": 0.13549494130791728,
+        "nodes": 20
+      },
+      "rvq": {
+        "ade_m": 0.04262628537308254,
+        "fde_m": 0.10602823009877319,
+        "nodes": 20
+      }
+    },
+    "merge_examples": [
+      {
+        "label": "起步",
+        "image": "585918d5f4da1066-merge-0-0.jpg",
+        "raw_frames": [
+          0,
+          1,
+          2
+        ],
+        "video_pts_sec": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "from_retained_node": 0,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0,
+          0.0,
+          -0.058524175154807345
+        ],
+        "merged_gt_local": [
+          0.0,
+          0.0,
+          -0.28268280829491843
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "最接近中段的实际合并（边 8→9）",
+        "image": "585918d5f4da1066-merge-1-8.jpg",
+        "raw_frames": [
+          13,
+          14,
+          15
+        ],
+        "video_pts_sec": [
+          6.5,
+          7.0,
+          7.5
+        ],
+        "from_retained_node": 8,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0,
+          0.0,
+          0.07106865578404431
+        ],
+        "merged_gt_local": [
+          0.11675325598854458,
+          0.008311494780211787,
+          0.07106865578404431
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "末端",
+        "image": "585918d5f4da1066-merge-2-18.jpg",
+        "raw_frames": [
+          27,
+          28,
+          29
+        ],
+        "video_pts_sec": [
+          13.5,
+          14.0,
+          14.5
+        ],
+        "from_retained_node": 18,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.234821513675033,
+          1.2628786905111156e-15,
+          -4.440892098500626e-16
+        ],
+        "merged_gt_local": [
+          0.325125558845569,
+          9.992007221626409e-16,
+          -8.881784197001252e-16
+        ],
+        "recorded_duration_sec": 1.0
+      }
+    ],
+    "background": "同高度 NavMesh 网格",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "RVQ 较低重建误差",
+    "scene_id": "hm3d/train/00074-kHvNo8x6Qoe/kHvNo8x6Qoe.basis.glb",
+    "episode_id": "hm3d__kHvNo8x6Qoe__semantic_f2c2d7a5",
+    "source_name": "original",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/",
+    "child_run": "hm3d_r23_k3_bin1_20261105_scene_c54e46f2bd9e",
+    "shard_id": "kHvNo8x6Qoe__00012",
+    "quality_score": 7.1,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 3.999132153771449,
+    "duration_sec": 15.5,
+    "raw_frames": 32,
+    "video": "12700afdde3f28f7.mp4",
+    "trajectory_plot": "12700afdde3f28f7-trajectory.png",
+    "branch_metrics": {
+      "k32": {
+        "ade_m": 0.2469692030901953,
+        "fde_m": 0.4566899544356194,
+        "nodes": 22
+      },
+      "k64": {
+        "ade_m": 0.14569901700453047,
+        "fde_m": 0.22519093003817633,
+        "nodes": 22
+      },
+      "rvq": {
+        "ade_m": 0.020660368394375947,
+        "fde_m": 0.031265939258408586,
+        "nodes": 22
+      }
+    },
+    "merge_examples": [
+      {
+        "label": "起步",
+        "image": "12700afdde3f28f7-merge-0-0.jpg",
+        "raw_frames": [
+          0,
+          1,
+          2
+        ],
+        "video_pts_sec": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "from_retained_node": 0,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0,
+          0.0,
+          0.05563676716696886
+        ],
+        "merged_gt_local": [
+          0.0,
+          0.0,
+          0.2687360829196992
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "最接近中段的实际合并（边 10→11）",
+        "image": "12700afdde3f28f7-merge-1-10.jpg",
+        "raw_frames": [
+          14,
+          15,
+          16
+        ],
+        "video_pts_sec": [
+          7.0,
+          7.5,
+          8.0
+        ],
+        "from_retained_node": 10,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.08576906285179442,
+          3.95516952522712e-16,
+          0.0
+        ],
+        "merged_gt_local": [
+          0.36152603513591497,
+          -2.7755575615628914e-17,
+          -8.881784197001252e-16
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "末端",
+        "image": "12700afdde3f28f7-merge-2-20.jpg",
+        "raw_frames": [
+          29,
+          30,
+          31
+        ],
+        "video_pts_sec": [
+          14.5,
+          15.0,
+          15.5
+        ],
+        "from_retained_node": 20,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.14396307418915089,
+          -1.5265566588595902e-16,
+          0.0
+        ],
+        "merged_gt_local": [
+          0.21594191019755757,
+          -1.5265566588595902e-16,
+          0.0
+        ],
+        "recorded_duration_sec": 1.0
+      }
+    ],
+    "background": "轨迹俯视图；无场景底图",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "三分支误差较接近",
+    "scene_id": "hm3d/train/00135-HeSYRw7eMtG/HeSYRw7eMtG.basis.glb",
+    "episode_id": "hm3d__HeSYRw7eMtG__semantic_b72d2180",
+    "source_name": "supplement",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/supplement-20261111/",
+    "child_run": "hm3d_r23_k3_bin1_supplement_20261111_scene_2557a21fc365",
+    "shard_id": "HeSYRw7eMtG__00000",
+    "quality_score": 9.99,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [],
+    "path_length_m": 4.531889045352599,
+    "duration_sec": 11.5,
+    "raw_frames": 24,
+    "video": "b291c7d7ed749a50.mp4",
+    "trajectory_plot": "b291c7d7ed749a50-trajectory.png",
+    "branch_metrics": {
+      "k32": {
+        "ade_m": 0.09326936946805321,
+        "fde_m": 0.24173213611019476,
+        "nodes": 17
+      },
+      "k64": {
+        "ade_m": 0.06852589289991796,
+        "fde_m": 0.08158330817943169,
+        "nodes": 17
+      },
+      "rvq": {
+        "ade_m": 0.03730579533098252,
+        "fde_m": 0.0484075582642651,
+        "nodes": 17
+      }
+    },
+    "merge_examples": [
+      {
+        "label": "起步",
+        "image": "b291c7d7ed749a50-merge-0-0.jpg",
+        "raw_frames": [
+          0,
+          1,
+          2
+        ],
+        "video_pts_sec": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "from_retained_node": 0,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.0,
+          0.0,
+          -0.07671566443095745
+        ],
+        "merged_gt_local": [
+          0.0,
+          0.0,
+          -0.3705511338551899
+        ],
+        "recorded_duration_sec": 1.0
+      },
+      {
+        "label": "最接近中段的实际合并（边 8→9）",
+        "image": "b291c7d7ed749a50-merge-1-8.jpg",
+        "raw_frames": [
+          11,
+          12,
+          15
+        ],
+        "video_pts_sec": [
+          5.5,
+          6.0,
+          7.5
+        ],
+        "from_retained_node": 8,
+        "skipped_raw_observations": 3,
+        "raw_first_step_local": [
+          0.06665801811180708,
+          6.31873026124552e-16,
+          4.440892098500626e-16
+        ],
+        "merged_gt_local": [
+          0.121376715531553,
+          0.007041437524020534,
+          0.12798095739903292
+        ],
+        "recorded_duration_sec": 2.0
+      },
+      {
+        "label": "末端",
+        "image": "b291c7d7ed749a50-merge-2-15.jpg",
+        "raw_frames": [
+          21,
+          22,
+          23
+        ],
+        "video_pts_sec": [
+          10.5,
+          11.0,
+          11.5
+        ],
+        "from_retained_node": 15,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.2547618087257799,
+          -9.575673587391975e-16,
+          1.3322676295501878e-15
+        ],
+        "merged_gt_local": [
+          0.3099596829967512,
+          -6.071532165918825e-16,
+          1.7763568394002505e-15
+        ],
+        "recorded_duration_sec": 1.0
+      }
+    ],
+    "background": "同高度 NavMesh 网格",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  },
+  {
+    "kind": "较困难重建样例",
+    "scene_id": "hm3d/train/00744-1S7LAXRdDqK/1S7LAXRdDqK.basis.glb",
+    "episode_id": "hm3d__1S7LAXRdDqK__semantic_535d4182",
+    "source_name": "supplement",
+    "source_prefix": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/supplement-20261111/",
+    "child_run": "hm3d_r23_k3_bin1_supplement_20261111_scene_8569d9506048",
+    "shard_id": "1S7LAXRdDqK__00001",
+    "quality_score": 7.18,
+    "pre_visual_review_quality_score": null,
+    "hard_errors": [],
+    "suspicious": [],
+    "review": [
+      "extended_turn_gt_75",
+      "stationary_and_cv_high"
+    ],
+    "path_length_m": 10.765141325946708,
+    "duration_sec": 39.0,
+    "raw_frames": 79,
+    "video": "6e6fb1934bc1d922.mp4",
+    "trajectory_plot": "6e6fb1934bc1d922-trajectory.png",
+    "branch_metrics": {
+      "k32": {
+        "ade_m": 0.9714740591495344,
+        "fde_m": 2.5179603017100796,
+        "nodes": 51
+      },
+      "k64": {
+        "ade_m": 0.484248230627576,
+        "fde_m": 1.1954030549322985,
+        "nodes": 51
+      },
+      "rvq": {
+        "ade_m": 0.1430147721500594,
+        "fde_m": 0.32117681383486374,
+        "nodes": 51
+      }
+    },
+    "merge_examples": [
+      {
+        "label": "起步",
+        "image": "6e6fb1934bc1d922-merge-0-0.jpg",
+        "raw_frames": [
+          0,
+          1,
+          3
+        ],
+        "video_pts_sec": [
+          0.0,
+          0.5,
+          1.5
+        ],
+        "from_retained_node": 0,
+        "skipped_raw_observations": 2,
+        "raw_first_step_local": [
+          0.0,
+          -0.0,
+          -0.06399845766880397
+        ],
+        "merged_gt_local": [
+          0.0,
+          -0.0,
+          -0.30493382771606736
+        ],
+        "recorded_duration_sec": 1.5
+      },
+      {
+        "label": "最接近中段的实际合并（边 26→27）",
+        "image": "6e6fb1934bc1d922-merge-1-26.jpg",
+        "raw_frames": [
+          39,
+          40,
+          42
+        ],
+        "video_pts_sec": [
+          19.5,
+          20.0,
+          21.0
+        ],
+        "from_retained_node": 26,
+        "skipped_raw_observations": 2,
+        "raw_first_step_local": [
+          -0.0,
+          0.0,
+          0.09376077766532465
+        ],
+        "merged_gt_local": [
+          0.2705376396884668,
+          0.02544041281015018,
+          0.09376077766532509
+        ],
+        "recorded_duration_sec": 1.5
+      },
+      {
+        "label": "末端",
+        "image": "6e6fb1934bc1d922-merge-2-49.jpg",
+        "raw_frames": [
+          76,
+          77,
+          78
+        ],
+        "video_pts_sec": [
+          38.0,
+          38.5,
+          39.0
+        ],
+        "from_retained_node": 49,
+        "skipped_raw_observations": 1,
+        "raw_first_step_local": [
+          0.16231717863565046,
+          1.3877787807814457e-16,
+          0.0
+        ],
+        "merged_gt_local": [
+          0.25480838954950696,
+          2.0816681711721685e-16,
+          0.0
+        ],
+        "recorded_duration_sec": 1.0
+      }
+    ],
+    "background": "同高度 NavMesh 网格",
+    "sample_selection": "Among explicitly AI-frame-reviewed examples, select branch whole-route ADE on the common trajectory set, route 3..100 m, report video <=25 MiB. This limits report media only, not training retention."
+  }
+]

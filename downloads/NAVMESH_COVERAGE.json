@@ -1,0 +1,5639 @@
+{
+  "status": "computed_on_available_resources",
+  "scenes_with_grids": 42,
+  "scene_results": [
+    {
+      "scene_id": "hm3d/train/00626-XiJhRLvpKpX/XiJhRLvpKpX.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00626-XiJhRLvpKpX/XiJhRLvpKpX.basis.glb",
+        "artifact_id": "navmesh:00a295a63d7f3564fc0405f7fac3559d76f4e764b38fcafb5961e567cb51dc0f",
+        "navmesh_sha256": "75ec830e4936301b82bd53ffbfdfa544b1d3636d9f4821ef3056e21384807146",
+        "grid_file": "00a295a63d7f3564fc0405f7fac3559d76f4e764b38fcafb5961e567cb51dc0f.npz",
+        "cells": 3727,
+        "grid_area_m2": 232.9375,
+        "continuous_navmesh_area_m2": 236.40455627441406,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/00a295a63d7f3564fc0405f7fac3559d76f4e764b38fcafb5961e567cb51dc0f.npz",
+        "bytes": 7634,
+        "sha256": "2d5b67c7b3b0cc46006b3ff9c1e763a30bca9e3294c0b3b5c428372014851663",
+        "crc64": "1668386487184663783"
+      },
+      "canonical_complete_trajectories": 57712,
+      "retained_trajectories": 38598,
+      "unmapped_trajectories": 0,
+      "raw_observations": 5130221,
+      "unmapped_observations": 840,
+      "before_qc_covered_cells": 3693,
+      "after_qc_covered_cells": 3676,
+      "lost_covered_cells": 17,
+      "cells_repeated_across_retained_trajectories": 3658,
+      "retained_cell_visit_count": 7440054,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3860,
+              "covered_cells": 3636,
+              "coverage": 0.9755835792862892
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 9650,
+              "covered_cells": 3648,
+              "coverage": 0.9788033270727127
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19299,
+              "covered_cells": 3657,
+              "coverage": 0.9812181379125302
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28949,
+              "covered_cells": 3675,
+              "coverage": 0.9860477595921653
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 38598,
+              "covered_cells": 3676,
+              "coverage": 0.9863160719077005
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3860,
+              "covered_cells": 3643,
+              "coverage": 0.9774617654950363
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 9650,
+              "covered_cells": 3671,
+              "coverage": 0.9849745103300241
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19299,
+              "covered_cells": 3675,
+              "coverage": 0.9860477595921653
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28949,
+              "covered_cells": 3675,
+              "coverage": 0.9860477595921653
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 38598,
+              "covered_cells": 3676,
+              "coverage": 0.9863160719077005
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3860,
+              "covered_cells": 3638,
+              "coverage": 0.9761202039173598
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 9650,
+              "covered_cells": 3646,
+              "coverage": 0.978266702441642
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19299,
+              "covered_cells": 3659,
+              "coverage": 0.9817547625436007
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28949,
+              "covered_cells": 3676,
+              "coverage": 0.9863160719077005
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 38598,
+              "covered_cells": 3676,
+              "coverage": 0.9863160719077005
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00744-1S7LAXRdDqK/1S7LAXRdDqK.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00744-1S7LAXRdDqK/1S7LAXRdDqK.basis.glb",
+        "artifact_id": "navmesh:033439fdeab773d431906839ac8949e9e6e09d500c138728c9be144a385bed5c",
+        "navmesh_sha256": "4a85c26d545c124a320ac04017bf0fa19d0c37e91ced60625631456a4527e827",
+        "grid_file": "033439fdeab773d431906839ac8949e9e6e09d500c138728c9be144a385bed5c.npz",
+        "cells": 679,
+        "grid_area_m2": 42.4375,
+        "continuous_navmesh_area_m2": 42.63114547729492,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/033439fdeab773d431906839ac8949e9e6e09d500c138728c9be144a385bed5c.npz",
+        "bytes": 1744,
+        "sha256": "68cfb344a6d7d7b6f6f95057d91c6b2b5032cf453708579660e346f353345a3a",
+        "crc64": "12275713800898784686"
+      },
+      "canonical_complete_trajectories": 5281,
+      "retained_trajectories": 4865,
+      "unmapped_trajectories": 0,
+      "raw_observations": 265682,
+      "unmapped_observations": 2070,
+      "before_qc_covered_cells": 652,
+      "after_qc_covered_cells": 652,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 651,
+      "retained_cell_visit_count": 416626,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 487,
+              "covered_cells": 648,
+              "coverage": 0.9543446244477173
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1217,
+              "covered_cells": 650,
+              "coverage": 0.9572901325478645
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2433,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3649,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4865,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 487,
+              "covered_cells": 648,
+              "coverage": 0.9543446244477173
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1217,
+              "covered_cells": 651,
+              "coverage": 0.9587628865979382
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2433,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3649,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4865,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 487,
+              "covered_cells": 649,
+              "coverage": 0.9558173784977909
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1217,
+              "covered_cells": 651,
+              "coverage": 0.9587628865979382
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2433,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3649,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4865,
+              "covered_cells": 652,
+              "coverage": 0.9602356406480118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00330-WhNyDTnd9g5/WhNyDTnd9g5.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00330-WhNyDTnd9g5/WhNyDTnd9g5.basis.glb",
+        "artifact_id": "navmesh:038937f7893d440fb5398fe02251874ffab910ca844fec40335f1678ec1be0ee",
+        "navmesh_sha256": "ca792edf13b36574b5194d4e9f020f166773d1f0b7e556d240591f9711c1b48a",
+        "grid_file": "038937f7893d440fb5398fe02251874ffab910ca844fec40335f1678ec1be0ee.npz",
+        "cells": 737,
+        "grid_area_m2": 46.0625,
+        "continuous_navmesh_area_m2": 49.3751335144043,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/038937f7893d440fb5398fe02251874ffab910ca844fec40335f1678ec1be0ee.npz",
+        "bytes": 1950,
+        "sha256": "a8c4c5d448fa8752f5b5ac86ca0c3678b998286f72720b016bb03f3e8eb62a23",
+        "crc64": "135666642045839201"
+      },
+      "canonical_complete_trajectories": 2489,
+      "retained_trajectories": 2162,
+      "unmapped_trajectories": 0,
+      "raw_observations": 94995,
+      "unmapped_observations": 2378,
+      "before_qc_covered_cells": 702,
+      "after_qc_covered_cells": 699,
+      "lost_covered_cells": 3,
+      "cells_repeated_across_retained_trajectories": 676,
+      "retained_cell_visit_count": 173769,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 217,
+              "covered_cells": 647,
+              "coverage": 0.8778833107191316
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 541,
+              "covered_cells": 672,
+              "coverage": 0.9118046132971506
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1081,
+              "covered_cells": 674,
+              "coverage": 0.9145183175033921
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1622,
+              "covered_cells": 699,
+              "coverage": 0.9484396200814111
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2162,
+              "covered_cells": 699,
+              "coverage": 0.9484396200814111
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 217,
+              "covered_cells": 658,
+              "coverage": 0.89280868385346
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 541,
+              "covered_cells": 659,
+              "coverage": 0.8941655359565808
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1081,
+              "covered_cells": 698,
+              "coverage": 0.9470827679782904
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1622,
+              "covered_cells": 698,
+              "coverage": 0.9470827679782904
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2162,
+              "covered_cells": 699,
+              "coverage": 0.9484396200814111
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 217,
+              "covered_cells": 595,
+              "coverage": 0.8073270013568521
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 541,
+              "covered_cells": 675,
+              "coverage": 0.9158751696065129
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1081,
+              "covered_cells": 676,
+              "coverage": 0.9172320217096337
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1622,
+              "covered_cells": 677,
+              "coverage": 0.9185888738127544
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2162,
+              "covered_cells": 699,
+              "coverage": 0.9484396200814111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00731-oXzJVhUhmYe/oXzJVhUhmYe.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00731-oXzJVhUhmYe/oXzJVhUhmYe.basis.glb",
+        "artifact_id": "navmesh:0b490f2d3090313d3898252343d20034b9ff3abd7b0ed430f77c6f46171d9f1e",
+        "navmesh_sha256": "7f7aaa4622a781b5039a527b58c004227950eaec7e57b8e3bf6462dddc887e0f",
+        "grid_file": "0b490f2d3090313d3898252343d20034b9ff3abd7b0ed430f77c6f46171d9f1e.npz",
+        "cells": 204,
+        "grid_area_m2": 12.75,
+        "continuous_navmesh_area_m2": 12.089343070983887,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/0b490f2d3090313d3898252343d20034b9ff3abd7b0ed430f77c6f46171d9f1e.npz",
+        "bytes": 937,
+        "sha256": "5e0fa3946710b9a38490e4f1c8adf749d33a12bb5b9fdf6dc71097504f1309e8",
+        "crc64": "4948833695680204102"
+      },
+      "canonical_complete_trajectories": 45,
+      "retained_trajectories": 37,
+      "unmapped_trajectories": 0,
+      "raw_observations": 1567,
+      "unmapped_observations": 41,
+      "before_qc_covered_cells": 132,
+      "after_qc_covered_cells": 131,
+      "lost_covered_cells": 1,
+      "cells_repeated_across_retained_trajectories": 128,
+      "retained_cell_visit_count": 1665,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 4,
+              "covered_cells": 71,
+              "coverage": 0.3480392156862745
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 10,
+              "covered_cells": 85,
+              "coverage": 0.4166666666666667
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19,
+              "covered_cells": 128,
+              "coverage": 0.6274509803921569
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28,
+              "covered_cells": 130,
+              "coverage": 0.6372549019607843
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 37,
+              "covered_cells": 131,
+              "coverage": 0.6421568627450981
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 4,
+              "covered_cells": 52,
+              "coverage": 0.2549019607843137
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 10,
+              "covered_cells": 113,
+              "coverage": 0.553921568627451
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19,
+              "covered_cells": 128,
+              "coverage": 0.6274509803921569
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28,
+              "covered_cells": 129,
+              "coverage": 0.6323529411764706
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 37,
+              "covered_cells": 131,
+              "coverage": 0.6421568627450981
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 4,
+              "covered_cells": 74,
+              "coverage": 0.3627450980392157
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 10,
+              "covered_cells": 117,
+              "coverage": 0.5735294117647058
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 19,
+              "covered_cells": 131,
+              "coverage": 0.6421568627450981
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 28,
+              "covered_cells": 131,
+              "coverage": 0.6421568627450981
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 37,
+              "covered_cells": 131,
+              "coverage": 0.6421568627450981
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00368-k9UfRPqLm3j/k9UfRPqLm3j.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00368-k9UfRPqLm3j/k9UfRPqLm3j.basis.glb",
+        "artifact_id": "navmesh:1360b17923eeb2bb2688a4d469d1aaa9c312dc5379154b406ec48af4c6a387fc",
+        "navmesh_sha256": "02cad54b5111e9df3fc86ca0bc7c3edafc60a6eef19695e3902cd745e431047f",
+        "grid_file": "1360b17923eeb2bb2688a4d469d1aaa9c312dc5379154b406ec48af4c6a387fc.npz",
+        "cells": 331,
+        "grid_area_m2": 20.6875,
+        "continuous_navmesh_area_m2": 21.296316146850586,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/1360b17923eeb2bb2688a4d469d1aaa9c312dc5379154b406ec48af4c6a387fc.npz",
+        "bytes": 1182,
+        "sha256": "1a4eee3f1defa52e03cf6e5daa66ff447d0a6c305927494260f78b8a40eafddc",
+        "crc64": "8141282433277503185"
+      },
+      "canonical_complete_trajectories": 142,
+      "retained_trajectories": 132,
+      "unmapped_trajectories": 0,
+      "raw_observations": 5545,
+      "unmapped_observations": 7,
+      "before_qc_covered_cells": 210,
+      "after_qc_covered_cells": 210,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 209,
+      "retained_cell_visit_count": 6310,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 14,
+              "covered_cells": 118,
+              "coverage": 0.3564954682779456
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 33,
+              "covered_cells": 206,
+              "coverage": 0.622356495468278
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 66,
+              "covered_cells": 209,
+              "coverage": 0.6314199395770392
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 99,
+              "covered_cells": 209,
+              "coverage": 0.6314199395770392
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 132,
+              "covered_cells": 210,
+              "coverage": 0.6344410876132931
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 14,
+              "covered_cells": 175,
+              "coverage": 0.5287009063444109
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 33,
+              "covered_cells": 187,
+              "coverage": 0.5649546827794562
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 66,
+              "covered_cells": 209,
+              "coverage": 0.6314199395770392
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 99,
+              "covered_cells": 210,
+              "coverage": 0.6344410876132931
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 132,
+              "covered_cells": 210,
+              "coverage": 0.6344410876132931
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 14,
+              "covered_cells": 184,
+              "coverage": 0.5558912386706949
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 33,
+              "covered_cells": 202,
+              "coverage": 0.6102719033232629
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 66,
+              "covered_cells": 207,
+              "coverage": 0.6253776435045317
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 99,
+              "covered_cells": 208,
+              "coverage": 0.6283987915407855
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 132,
+              "covered_cells": 210,
+              "coverage": 0.6344410876132931
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00624-ooq3SnvC79d/ooq3SnvC79d.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00624-ooq3SnvC79d/ooq3SnvC79d.basis.glb",
+        "artifact_id": "navmesh:14e37530ec59a048f88c03729806cd0eccd1ba690a9c80b47b12ce006f9c56df",
+        "navmesh_sha256": "9e12b3759c52552e381445ee5aa169b66511ac29c4a1288c26fca75eab58e80a",
+        "grid_file": "14e37530ec59a048f88c03729806cd0eccd1ba690a9c80b47b12ce006f9c56df.npz",
+        "cells": 914,
+        "grid_area_m2": 57.125,
+        "continuous_navmesh_area_m2": 59.25337600708008,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/14e37530ec59a048f88c03729806cd0eccd1ba690a9c80b47b12ce006f9c56df.npz",
+        "bytes": 2311,
+        "sha256": "15b77574775fe9a538a9afd0a713661c725f4f90d2b90ef54020385f5c15cbf0",
+        "crc64": "11640481789861041863"
+      },
+      "canonical_complete_trajectories": 7967,
+      "retained_trajectories": 7432,
+      "unmapped_trajectories": 0,
+      "raw_observations": 529256,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 867,
+      "after_qc_covered_cells": 867,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 861,
+      "retained_cell_visit_count": 883710,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 744,
+              "covered_cells": 781,
+              "coverage": 0.8544857768052516
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1858,
+              "covered_cells": 834,
+              "coverage": 0.912472647702407
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3716,
+              "covered_cells": 841,
+              "coverage": 0.9201312910284464
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5574,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7432,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 744,
+              "covered_cells": 800,
+              "coverage": 0.87527352297593
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1858,
+              "covered_cells": 820,
+              "coverage": 0.8971553610503282
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3716,
+              "covered_cells": 855,
+              "coverage": 0.9354485776805251
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5574,
+              "covered_cells": 855,
+              "coverage": 0.9354485776805251
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7432,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 744,
+              "covered_cells": 816,
+              "coverage": 0.8927789934354485
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1858,
+              "covered_cells": 852,
+              "coverage": 0.9321663019693655
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3716,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5574,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7432,
+              "covered_cells": 867,
+              "coverage": 0.9485776805251641
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00447-5RtSdesLuHt/5RtSdesLuHt.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00447-5RtSdesLuHt/5RtSdesLuHt.basis.glb",
+        "artifact_id": "navmesh:20def5747bf949cb9b803d98f3a47373d32de2b44eb33b034105fb55d959acf3",
+        "navmesh_sha256": "f8703c669ad6ff883b8077cad1741f36151c05af09efb349fc9faf550ea7cb73",
+        "grid_file": "20def5747bf949cb9b803d98f3a47373d32de2b44eb33b034105fb55d959acf3.npz",
+        "cells": 1832,
+        "grid_area_m2": 114.5,
+        "continuous_navmesh_area_m2": 115.37914276123047,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/20def5747bf949cb9b803d98f3a47373d32de2b44eb33b034105fb55d959acf3.npz",
+        "bytes": 3937,
+        "sha256": "383122a2a4236fa2efc9edaf314366533641b61286e88093da7762f7bd3dcfdc",
+        "crc64": "15776812051062173780"
+      },
+      "canonical_complete_trajectories": 5342,
+      "retained_trajectories": 4772,
+      "unmapped_trajectories": 0,
+      "raw_observations": 468320,
+      "unmapped_observations": 43,
+      "before_qc_covered_cells": 1719,
+      "after_qc_covered_cells": 1719,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 1712,
+      "retained_cell_visit_count": 812826,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 478,
+              "covered_cells": 1687,
+              "coverage": 0.9208515283842795
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1193,
+              "covered_cells": 1703,
+              "coverage": 0.9295851528384279
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2386,
+              "covered_cells": 1714,
+              "coverage": 0.9355895196506551
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3579,
+              "covered_cells": 1719,
+              "coverage": 0.9383187772925764
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4772,
+              "covered_cells": 1719,
+              "coverage": 0.9383187772925764
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 478,
+              "covered_cells": 1700,
+              "coverage": 0.9279475982532751
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1193,
+              "covered_cells": 1708,
+              "coverage": 0.9323144104803494
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2386,
+              "covered_cells": 1711,
+              "coverage": 0.9339519650655022
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3579,
+              "covered_cells": 1713,
+              "coverage": 0.9350436681222707
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4772,
+              "covered_cells": 1719,
+              "coverage": 0.9383187772925764
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 478,
+              "covered_cells": 1699,
+              "coverage": 0.9274017467248908
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1193,
+              "covered_cells": 1711,
+              "coverage": 0.9339519650655022
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2386,
+              "covered_cells": 1713,
+              "coverage": 0.9350436681222707
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3579,
+              "covered_cells": 1719,
+              "coverage": 0.9383187772925764
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4772,
+              "covered_cells": 1719,
+              "coverage": 0.9383187772925764
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00588-YWy9hV7RfQB/YWy9hV7RfQB.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00588-YWy9hV7RfQB/YWy9hV7RfQB.basis.glb",
+        "artifact_id": "navmesh:232430b1be075ca46a41f1376d7319b06ee806c124818a19504e7e75ba86b086",
+        "navmesh_sha256": "833ea95f0add30906bfca6ba26ef0f3f35d2896d43409b88ace655455816f509",
+        "grid_file": "232430b1be075ca46a41f1376d7319b06ee806c124818a19504e7e75ba86b086.npz",
+        "cells": 1401,
+        "grid_area_m2": 87.5625,
+        "continuous_navmesh_area_m2": 87.18144226074219,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/232430b1be075ca46a41f1376d7319b06ee806c124818a19504e7e75ba86b086.npz",
+        "bytes": 3069,
+        "sha256": "834dc71873750ac4179df9e2adc7ab87a2008dcb41fe4cf74f4d6962de02677d",
+        "crc64": "2358567383138158788"
+      },
+      "canonical_complete_trajectories": 1931,
+      "retained_trajectories": 1850,
+      "unmapped_trajectories": 0,
+      "raw_observations": 101201,
+      "unmapped_observations": 293,
+      "before_qc_covered_cells": 1239,
+      "after_qc_covered_cells": 1239,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 1179,
+      "retained_cell_visit_count": 204897,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 185,
+              "covered_cells": 1000,
+              "coverage": 0.7137758743754461
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 463,
+              "covered_cells": 1152,
+              "coverage": 0.8222698072805139
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 925,
+              "covered_cells": 1184,
+              "coverage": 0.8451106352605282
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1388,
+              "covered_cells": 1239,
+              "coverage": 0.8843683083511777
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1850,
+              "covered_cells": 1239,
+              "coverage": 0.8843683083511777
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 185,
+              "covered_cells": 799,
+              "coverage": 0.5703069236259815
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 463,
+              "covered_cells": 1133,
+              "coverage": 0.8087080656673804
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 925,
+              "covered_cells": 1203,
+              "coverage": 0.8586723768736617
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1388,
+              "covered_cells": 1238,
+              "coverage": 0.8836545324768023
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1850,
+              "covered_cells": 1239,
+              "coverage": 0.8843683083511777
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 185,
+              "covered_cells": 991,
+              "coverage": 0.7073518915060671
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 463,
+              "covered_cells": 1087,
+              "coverage": 0.7758743754461099
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 925,
+              "covered_cells": 1157,
+              "coverage": 0.8258386866523911
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1388,
+              "covered_cells": 1187,
+              "coverage": 0.8472519628836546
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1850,
+              "covered_cells": 1239,
+              "coverage": 0.8843683083511777
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00347-bwoBmU23M2N/bwoBmU23M2N.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00347-bwoBmU23M2N/bwoBmU23M2N.basis.glb",
+        "artifact_id": "navmesh:2b11bc1c4d384d434e07e20ac3ada792f278c095c4d8954b0144c077b4c6afa3",
+        "navmesh_sha256": "2dc817bd46ccdbffb8063c4d164467dcbed844a3ef4ccfddb42e3a4c2f89bd52",
+        "grid_file": "2b11bc1c4d384d434e07e20ac3ada792f278c095c4d8954b0144c077b4c6afa3.npz",
+        "cells": 727,
+        "grid_area_m2": 45.4375,
+        "continuous_navmesh_area_m2": 47.949745178222656,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/2b11bc1c4d384d434e07e20ac3ada792f278c095c4d8954b0144c077b4c6afa3.npz",
+        "bytes": 1857,
+        "sha256": "8b975ead92ec051f243ebdfd14313b970a647aeff64fb28a76c014f1372e90de",
+        "crc64": "11998023510313850858"
+      },
+      "canonical_complete_trajectories": 708,
+      "retained_trajectories": 659,
+      "unmapped_trajectories": 0,
+      "raw_observations": 29761,
+      "unmapped_observations": 226,
+      "before_qc_covered_cells": 687,
+      "after_qc_covered_cells": 687,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 681,
+      "retained_cell_visit_count": 42472,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 66,
+              "covered_cells": 645,
+              "coverage": 0.8872077028885832
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 165,
+              "covered_cells": 669,
+              "coverage": 0.9202200825309491
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 330,
+              "covered_cells": 683,
+              "coverage": 0.9394773039889959
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 495,
+              "covered_cells": 683,
+              "coverage": 0.9394773039889959
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 659,
+              "covered_cells": 687,
+              "coverage": 0.9449793672627235
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 66,
+              "covered_cells": 585,
+              "coverage": 0.8046767537826685
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 165,
+              "covered_cells": 669,
+              "coverage": 0.9202200825309491
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 330,
+              "covered_cells": 680,
+              "coverage": 0.9353507565337001
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 495,
+              "covered_cells": 684,
+              "coverage": 0.9408528198074277
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 659,
+              "covered_cells": 687,
+              "coverage": 0.9449793672627235
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 66,
+              "covered_cells": 617,
+              "coverage": 0.8486932599724897
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 165,
+              "covered_cells": 674,
+              "coverage": 0.9270976616231087
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 330,
+              "covered_cells": 687,
+              "coverage": 0.9449793672627235
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 495,
+              "covered_cells": 687,
+              "coverage": 0.9449793672627235
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 659,
+              "covered_cells": 687,
+              "coverage": 0.9449793672627235
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00603-Xfhi9GYbhqD/Xfhi9GYbhqD.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00603-Xfhi9GYbhqD/Xfhi9GYbhqD.basis.glb",
+        "artifact_id": "navmesh:2f8635b0101aed3f9a3726b3377998b29e84b134e2c677acc90ad2f22d41c6a0",
+        "navmesh_sha256": "18ed89a5230d435beb822ab4c349dd6291b319f490be46e0eb6518e9a4ad444c",
+        "grid_file": "2f8635b0101aed3f9a3726b3377998b29e84b134e2c677acc90ad2f22d41c6a0.npz",
+        "cells": 204,
+        "grid_area_m2": 12.75,
+        "continuous_navmesh_area_m2": 12.609569549560547,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/2f8635b0101aed3f9a3726b3377998b29e84b134e2c677acc90ad2f22d41c6a0.npz",
+        "bytes": 889,
+        "sha256": "ff84a38606ec98b43f1ac1f92277471293829cfa2ad8dc25526c89f5c551c2ca",
+        "crc64": "11892348856152983254"
+      },
+      "canonical_complete_trajectories": 69,
+      "retained_trajectories": 69,
+      "unmapped_trajectories": 0,
+      "raw_observations": 2509,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 62,
+      "after_qc_covered_cells": 62,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 61,
+      "retained_cell_visit_count": 2542,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 61,
+              "coverage": 0.29901960784313725
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 18,
+              "covered_cells": 61,
+              "coverage": 0.29901960784313725
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 35,
+              "covered_cells": 61,
+              "coverage": 0.29901960784313725
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 52,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 69,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 60,
+              "coverage": 0.29411764705882354
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 18,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 35,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 52,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 69,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 57,
+              "coverage": 0.27941176470588236
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 18,
+              "covered_cells": 57,
+              "coverage": 0.27941176470588236
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 35,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 52,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 69,
+              "covered_cells": 62,
+              "coverage": 0.30392156862745096
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00636-FXuXGH9YQTW/FXuXGH9YQTW.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00636-FXuXGH9YQTW/FXuXGH9YQTW.basis.glb",
+        "artifact_id": "navmesh:33db25bbf31ee3b8b5559820068c0477343b6aff57361c5a3eec0851d3e44615",
+        "navmesh_sha256": "5792509b8e47094e58b4958d6842acf242b82d8caf13fe48a74326f9115f2e0d",
+        "grid_file": "33db25bbf31ee3b8b5559820068c0477343b6aff57361c5a3eec0851d3e44615.npz",
+        "cells": 1797,
+        "grid_area_m2": 112.3125,
+        "continuous_navmesh_area_m2": 111.90908813476562,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/33db25bbf31ee3b8b5559820068c0477343b6aff57361c5a3eec0851d3e44615.npz",
+        "bytes": 3874,
+        "sha256": "e3d482c04b49fff011f6a6e038f5244a2321ef2cd775c181c351b7f16f8fd1da",
+        "crc64": "11402850134373930145"
+      },
+      "canonical_complete_trajectories": 5321,
+      "retained_trajectories": 4980,
+      "unmapped_trajectories": 0,
+      "raw_observations": 355892,
+      "unmapped_observations": 126,
+      "before_qc_covered_cells": 1690,
+      "after_qc_covered_cells": 1690,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 1688,
+      "retained_cell_visit_count": 586157,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 498,
+              "covered_cells": 1662,
+              "coverage": 0.9248747913188647
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1245,
+              "covered_cells": 1677,
+              "coverage": 0.9332220367278798
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2490,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3735,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4980,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 498,
+              "covered_cells": 1665,
+              "coverage": 0.9265442404006677
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1245,
+              "covered_cells": 1675,
+              "coverage": 0.9321090706733445
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2490,
+              "covered_cells": 1683,
+              "coverage": 0.9365609348914858
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3735,
+              "covered_cells": 1688,
+              "coverage": 0.9393433500278241
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4980,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 498,
+              "covered_cells": 1662,
+              "coverage": 0.9248747913188647
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1245,
+              "covered_cells": 1680,
+              "coverage": 0.9348914858096828
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2490,
+              "covered_cells": 1686,
+              "coverage": 0.9382303839732888
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3735,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4980,
+              "covered_cells": 1690,
+              "coverage": 0.9404563160823595
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00240-q9CAdKfvar2/q9CAdKfvar2.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00240-q9CAdKfvar2/q9CAdKfvar2.basis.glb",
+        "artifact_id": "navmesh:357310567e1bb4e1a0f2758541e877fc3329a1b3d3962367141ebb60d0fbf5d6",
+        "navmesh_sha256": "b4048599adf2aa88c3716838781afec9e6af3d3aee94ab3aa73e102eef8d8301",
+        "grid_file": "357310567e1bb4e1a0f2758541e877fc3329a1b3d3962367141ebb60d0fbf5d6.npz",
+        "cells": 335,
+        "grid_area_m2": 20.9375,
+        "continuous_navmesh_area_m2": 21.202667236328125,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/357310567e1bb4e1a0f2758541e877fc3329a1b3d3962367141ebb60d0fbf5d6.npz",
+        "bytes": 1138,
+        "sha256": "2d4d01c539d8c21c6e996df92011de4fb9d7133affe0e84a81259d872f6f4474",
+        "crc64": "10099566051144777281"
+      },
+      "canonical_complete_trajectories": 69,
+      "retained_trajectories": 66,
+      "unmapped_trajectories": 0,
+      "raw_observations": 2542,
+      "unmapped_observations": 21,
+      "before_qc_covered_cells": 211,
+      "after_qc_covered_cells": 211,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 200,
+      "retained_cell_visit_count": 2667,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 147,
+              "coverage": 0.4388059701492537
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 17,
+              "covered_cells": 195,
+              "coverage": 0.582089552238806
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 33,
+              "covered_cells": 204,
+              "coverage": 0.608955223880597
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 50,
+              "covered_cells": 208,
+              "coverage": 0.6208955223880597
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 66,
+              "covered_cells": 211,
+              "coverage": 0.6298507462686567
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 121,
+              "coverage": 0.3611940298507463
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 17,
+              "covered_cells": 171,
+              "coverage": 0.5104477611940299
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 33,
+              "covered_cells": 203,
+              "coverage": 0.6059701492537314
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 50,
+              "covered_cells": 208,
+              "coverage": 0.6208955223880597
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 66,
+              "covered_cells": 211,
+              "coverage": 0.6298507462686567
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 7,
+              "covered_cells": 103,
+              "coverage": 0.3074626865671642
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 17,
+              "covered_cells": 176,
+              "coverage": 0.5253731343283582
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 33,
+              "covered_cells": 191,
+              "coverage": 0.5701492537313433
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 50,
+              "covered_cells": 210,
+              "coverage": 0.6268656716417911
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 66,
+              "covered_cells": 211,
+              "coverage": 0.6298507462686567
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00783-J9adB1bm54A/J9adB1bm54A.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00783-J9adB1bm54A/J9adB1bm54A.basis.glb",
+        "artifact_id": "navmesh:3c4c384b68031dea1752bb46560cdf403845fe47bd2412bce0b46bc46a114e8b",
+        "navmesh_sha256": "c5bbcb54a45a5731aa8bf21339a940c3ada0912d45d0907d0bcc5a1b1041d56a",
+        "grid_file": "3c4c384b68031dea1752bb46560cdf403845fe47bd2412bce0b46bc46a114e8b.npz",
+        "cells": 1283,
+        "grid_area_m2": 80.1875,
+        "continuous_navmesh_area_m2": 81.72783660888672,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/3c4c384b68031dea1752bb46560cdf403845fe47bd2412bce0b46bc46a114e8b.npz",
+        "bytes": 2666,
+        "sha256": "5f94045460f10846b1f877f85c9876acd662348fe4a547f7b2ae22abf1b1120c",
+        "crc64": "8010383350931370355"
+      },
+      "canonical_complete_trajectories": 272,
+      "retained_trajectories": 256,
+      "unmapped_trajectories": 0,
+      "raw_observations": 11063,
+      "unmapped_observations": 272,
+      "before_qc_covered_cells": 1206,
+      "after_qc_covered_cells": 1199,
+      "lost_covered_cells": 7,
+      "cells_repeated_across_retained_trajectories": 1165,
+      "retained_cell_visit_count": 20987,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 26,
+              "covered_cells": 750,
+              "coverage": 0.5845674201091192
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 64,
+              "covered_cells": 1003,
+              "coverage": 0.7817614964925955
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 128,
+              "covered_cells": 1125,
+              "coverage": 0.8768511301636789
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 192,
+              "covered_cells": 1176,
+              "coverage": 0.916601714731099
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 256,
+              "covered_cells": 1199,
+              "coverage": 0.9345284489477786
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 26,
+              "covered_cells": 827,
+              "coverage": 0.6445830085736555
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 64,
+              "covered_cells": 1085,
+              "coverage": 0.8456742010911925
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 128,
+              "covered_cells": 1143,
+              "coverage": 0.8908807482462977
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 192,
+              "covered_cells": 1178,
+              "coverage": 0.9181605611847233
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 256,
+              "covered_cells": 1199,
+              "coverage": 0.9345284489477786
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 26,
+              "covered_cells": 862,
+              "coverage": 0.6718628215120811
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 64,
+              "covered_cells": 1037,
+              "coverage": 0.8082618862042089
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 128,
+              "covered_cells": 1153,
+              "coverage": 0.8986749805144193
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 192,
+              "covered_cells": 1187,
+              "coverage": 0.9251753702260327
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 256,
+              "covered_cells": 1199,
+              "coverage": 0.9345284489477786
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00245-741Fdj7NLF9/741Fdj7NLF9.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00245-741Fdj7NLF9/741Fdj7NLF9.basis.glb",
+        "artifact_id": "navmesh:3c5fcae2a14f04a7869715bef00acd11b8473de1c0ba455fb7c85f0b82a1844e",
+        "navmesh_sha256": "b52478d64de346088e14e0493990f5787ce091ea432ecbf46c5f63a43cd4c87e",
+        "grid_file": "3c5fcae2a14f04a7869715bef00acd11b8473de1c0ba455fb7c85f0b82a1844e.npz",
+        "cells": 542,
+        "grid_area_m2": 33.875,
+        "continuous_navmesh_area_m2": 34.84410858154297,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/3c5fcae2a14f04a7869715bef00acd11b8473de1c0ba455fb7c85f0b82a1844e.npz",
+        "bytes": 1521,
+        "sha256": "99509187bd9f98e24be5245d49afeeb4aaeb1a9b5bcf135a565c4d312b342820",
+        "crc64": "18435876350323108118"
+      },
+      "canonical_complete_trajectories": 4348,
+      "retained_trajectories": 2518,
+      "unmapped_trajectories": 0,
+      "raw_observations": 243133,
+      "unmapped_observations": 129,
+      "before_qc_covered_cells": 540,
+      "after_qc_covered_cells": 540,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 539,
+      "retained_cell_visit_count": 185568,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 252,
+              "covered_cells": 533,
+              "coverage": 0.9833948339483395
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 630,
+              "covered_cells": 538,
+              "coverage": 0.992619926199262
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1259,
+              "covered_cells": 539,
+              "coverage": 0.9944649446494465
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1889,
+              "covered_cells": 540,
+              "coverage": 0.996309963099631
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2518,
+              "covered_cells": 540,
+              "coverage": 0.996309963099631
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 252,
+              "covered_cells": 529,
+              "coverage": 0.9760147601476015
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 630,
+              "covered_cells": 535,
+              "coverage": 0.9870848708487084
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1259,
+              "covered_cells": 538,
+              "coverage": 0.992619926199262
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1889,
+              "covered_cells": 540,
+              "coverage": 0.996309963099631
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2518,
+              "covered_cells": 540,
+              "coverage": 0.996309963099631
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 252,
+              "covered_cells": 535,
+              "coverage": 0.9870848708487084
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 630,
+              "covered_cells": 539,
+              "coverage": 0.9944649446494465
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1259,
+              "covered_cells": 539,
+              "coverage": 0.9944649446494465
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1889,
+              "covered_cells": 539,
+              "coverage": 0.9944649446494465
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 2518,
+              "covered_cells": 540,
+              "coverage": 0.996309963099631
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00691-MyxM6trMBUH/MyxM6trMBUH.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00691-MyxM6trMBUH/MyxM6trMBUH.basis.glb",
+        "artifact_id": "navmesh:3cd90f085a96ef01641efef20f21154a39e11e547e19535ae550f42f63d0cd8b",
+        "navmesh_sha256": "f5aee2d301fbf41494f85272e0f3239cff8f57b30e1a0217bddf5cc116f0f1e0",
+        "grid_file": "3cd90f085a96ef01641efef20f21154a39e11e547e19535ae550f42f63d0cd8b.npz",
+        "cells": 1215,
+        "grid_area_m2": 75.9375,
+        "continuous_navmesh_area_m2": 77.63358306884766,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/3cd90f085a96ef01641efef20f21154a39e11e547e19535ae550f42f63d0cd8b.npz",
+        "bytes": 2833,
+        "sha256": "1ef6bbe9d1978e416a734d1f6cffb373219b506d8e9576a9ba5a31ac81d4f0a5",
+        "crc64": "8857836704384964367"
+      },
+      "canonical_complete_trajectories": 944,
+      "retained_trajectories": 889,
+      "unmapped_trajectories": 0,
+      "raw_observations": 56980,
+      "unmapped_observations": 390,
+      "before_qc_covered_cells": 1091,
+      "after_qc_covered_cells": 1037,
+      "lost_covered_cells": 54,
+      "cells_repeated_across_retained_trajectories": 970,
+      "retained_cell_visit_count": 67778,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 89,
+              "covered_cells": 834,
+              "coverage": 0.6864197530864198
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 223,
+              "covered_cells": 904,
+              "coverage": 0.7440329218106996
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 445,
+              "covered_cells": 949,
+              "coverage": 0.7810699588477367
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 667,
+              "covered_cells": 1030,
+              "coverage": 0.8477366255144033
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 889,
+              "covered_cells": 1037,
+              "coverage": 0.8534979423868313
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 89,
+              "covered_cells": 798,
+              "coverage": 0.6567901234567901
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 223,
+              "covered_cells": 963,
+              "coverage": 0.7925925925925926
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 445,
+              "covered_cells": 1026,
+              "coverage": 0.8444444444444444
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 667,
+              "covered_cells": 1033,
+              "coverage": 0.8502057613168724
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 889,
+              "covered_cells": 1037,
+              "coverage": 0.8534979423868313
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 89,
+              "covered_cells": 789,
+              "coverage": 0.6493827160493827
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 223,
+              "covered_cells": 907,
+              "coverage": 0.7465020576131687
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 445,
+              "covered_cells": 994,
+              "coverage": 0.8181069958847736
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 667,
+              "covered_cells": 1035,
+              "coverage": 0.8518518518518519
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 889,
+              "covered_cells": 1037,
+              "coverage": 0.8534979423868313
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/val/00813-svBbv1Pavdk/svBbv1Pavdk.basis.glb",
+        "artifact_id": "navmesh:4d23281e4b04e182fddf13d48e30b5dad7d77601edef28e89411a8bb65e397cd",
+        "navmesh_sha256": "71ec52239eca594ab53eeb9aef86c6df85bc9854c9b5e14b9fa553b5d62cba2e",
+        "grid_file": "4d23281e4b04e182fddf13d48e30b5dad7d77601edef28e89411a8bb65e397cd.npz",
+        "cells": 719,
+        "grid_area_m2": 44.9375,
+        "continuous_navmesh_area_m2": 44.720069885253906,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/4d23281e4b04e182fddf13d48e30b5dad7d77601edef28e89411a8bb65e397cd.npz",
+        "bytes": 1734,
+        "sha256": "5e729c3fee4fb8d774d3d3965ad7b585bb18956ce33095f4e4a3735e8f8ef8a2",
+        "crc64": "15408466954377360959"
+      },
+      "canonical_complete_trajectories": 5766,
+      "retained_trajectories": 4944,
+      "unmapped_trajectories": 0,
+      "raw_observations": 301469,
+      "unmapped_observations": 236,
+      "before_qc_covered_cells": 613,
+      "after_qc_covered_cells": 561,
+      "lost_covered_cells": 52,
+      "cells_repeated_across_retained_trajectories": 560,
+      "retained_cell_visit_count": 516157,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 495,
+              "covered_cells": 558,
+              "coverage": 0.7760778859527121
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1236,
+              "covered_cells": 560,
+              "coverage": 0.7788595271210014
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2472,
+              "covered_cells": 560,
+              "coverage": 0.7788595271210014
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3708,
+              "covered_cells": 560,
+              "coverage": 0.7788595271210014
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4944,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 495,
+              "covered_cells": 558,
+              "coverage": 0.7760778859527121
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1236,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2472,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3708,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4944,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 495,
+              "covered_cells": 555,
+              "coverage": 0.7719054242002782
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1236,
+              "covered_cells": 560,
+              "coverage": 0.7788595271210014
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2472,
+              "covered_cells": 560,
+              "coverage": 0.7788595271210014
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3708,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4944,
+              "covered_cells": 561,
+              "coverage": 0.780250347705146
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00280-FgswoxWb3uN/FgswoxWb3uN.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00280-FgswoxWb3uN/FgswoxWb3uN.basis.glb",
+        "artifact_id": "navmesh:560b0d26b6e3b4e6401447d99f72cf3df48ef3f0bf4948d060cb59f5cd5fde90",
+        "navmesh_sha256": "2560d7532fbf8d64ccb81a6ee981df7dbd39f28698b47b129f17fb4d39390a1b",
+        "grid_file": "560b0d26b6e3b4e6401447d99f72cf3df48ef3f0bf4948d060cb59f5cd5fde90.npz",
+        "cells": 802,
+        "grid_area_m2": 50.125,
+        "continuous_navmesh_area_m2": 52.86201095581055,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/560b0d26b6e3b4e6401447d99f72cf3df48ef3f0bf4948d060cb59f5cd5fde90.npz",
+        "bytes": 2189,
+        "sha256": "31bea4da19015554f014e99ebc200a742cd4fd66540b3fc578885f40ead11114",
+        "crc64": "2336778710322344773"
+      },
+      "canonical_complete_trajectories": 1081,
+      "retained_trajectories": 960,
+      "unmapped_trajectories": 0,
+      "raw_observations": 52016,
+      "unmapped_observations": 28,
+      "before_qc_covered_cells": 771,
+      "after_qc_covered_cells": 771,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 770,
+      "retained_cell_visit_count": 80193,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 96,
+              "covered_cells": 714,
+              "coverage": 0.8902743142144638
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 240,
+              "covered_cells": 754,
+              "coverage": 0.940149625935162
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 480,
+              "covered_cells": 768,
+              "coverage": 0.9576059850374065
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 720,
+              "covered_cells": 770,
+              "coverage": 0.9600997506234414
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 960,
+              "covered_cells": 771,
+              "coverage": 0.9613466334164589
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 96,
+              "covered_cells": 732,
+              "coverage": 0.912718204488778
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 240,
+              "covered_cells": 760,
+              "coverage": 0.9476309226932669
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 480,
+              "covered_cells": 768,
+              "coverage": 0.9576059850374065
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 720,
+              "covered_cells": 771,
+              "coverage": 0.9613466334164589
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 960,
+              "covered_cells": 771,
+              "coverage": 0.9613466334164589
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 96,
+              "covered_cells": 705,
+              "coverage": 0.8790523690773068
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 240,
+              "covered_cells": 752,
+              "coverage": 0.9376558603491272
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 480,
+              "covered_cells": 760,
+              "coverage": 0.9476309226932669
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 720,
+              "covered_cells": 770,
+              "coverage": 0.9600997506234414
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 960,
+              "covered_cells": 771,
+              "coverage": 0.9613466334164589
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00351-QxfX5te1gFu/QxfX5te1gFu.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00351-QxfX5te1gFu/QxfX5te1gFu.basis.glb",
+        "artifact_id": "navmesh:570143fbb3ded39cd5e765527c5688a3571a8090d425de35d1b21806c189aadd",
+        "navmesh_sha256": "f8b0e516c51c9074eb48cd2e3c67beb57fc168b4f21c6ec4329502be1c5b85d3",
+        "grid_file": "570143fbb3ded39cd5e765527c5688a3571a8090d425de35d1b21806c189aadd.npz",
+        "cells": 229,
+        "grid_area_m2": 14.3125,
+        "continuous_navmesh_area_m2": 14.842580795288086,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/570143fbb3ded39cd5e765527c5688a3571a8090d425de35d1b21806c189aadd.npz",
+        "bytes": 925,
+        "sha256": "a1e1e2ace7106c3170d82fdeb3264e97624a1aeafdc1030119d60c4d49d45c71",
+        "crc64": "4767010241555793317"
+      },
+      "canonical_complete_trajectories": 32,
+      "retained_trajectories": 25,
+      "unmapped_trajectories": 0,
+      "raw_observations": 1054,
+      "unmapped_observations": 13,
+      "before_qc_covered_cells": 172,
+      "after_qc_covered_cells": 114,
+      "lost_covered_cells": 58,
+      "cells_repeated_across_retained_trajectories": 102,
+      "retained_cell_visit_count": 891,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3,
+              "covered_cells": 78,
+              "coverage": 0.3406113537117904
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 7,
+              "covered_cells": 100,
+              "coverage": 0.4366812227074236
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 13,
+              "covered_cells": 103,
+              "coverage": 0.4497816593886463
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 19,
+              "covered_cells": 108,
+              "coverage": 0.47161572052401746
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 25,
+              "covered_cells": 114,
+              "coverage": 0.4978165938864629
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3,
+              "covered_cells": 66,
+              "coverage": 0.28820960698689957
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 7,
+              "covered_cells": 96,
+              "coverage": 0.4192139737991266
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 13,
+              "covered_cells": 107,
+              "coverage": 0.4672489082969432
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 19,
+              "covered_cells": 113,
+              "coverage": 0.49344978165938863
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 25,
+              "covered_cells": 114,
+              "coverage": 0.4978165938864629
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 3,
+              "covered_cells": 74,
+              "coverage": 0.3231441048034934
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 7,
+              "covered_cells": 107,
+              "coverage": 0.4672489082969432
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 13,
+              "covered_cells": 112,
+              "coverage": 0.4890829694323144
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 19,
+              "covered_cells": 112,
+              "coverage": 0.4890829694323144
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 25,
+              "covered_cells": 114,
+              "coverage": 0.4978165938864629
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00408-RamZzGBBPbT/RamZzGBBPbT.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00408-RamZzGBBPbT/RamZzGBBPbT.basis.glb",
+        "artifact_id": "navmesh:5944f047231e304f24363349fa62af25c569938851da9159426376ce696dbfb5",
+        "navmesh_sha256": "d73e116ad26111b6f5c5891a9b8fa89d70d75077e96d7e1accde4e4088d6e00d",
+        "grid_file": "5944f047231e304f24363349fa62af25c569938851da9159426376ce696dbfb5.npz",
+        "cells": 790,
+        "grid_area_m2": 49.375,
+        "continuous_navmesh_area_m2": 50.280975341796875,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/5944f047231e304f24363349fa62af25c569938851da9159426376ce696dbfb5.npz",
+        "bytes": 2114,
+        "sha256": "281b3db67756679566eb30b2f16aaf36439cd73f4e4924c564ed6811a76dfccd",
+        "crc64": "1472803244328420875"
+      },
+      "canonical_complete_trajectories": 765,
+      "retained_trajectories": 556,
+      "unmapped_trajectories": 0,
+      "raw_observations": 37359,
+      "unmapped_observations": 148,
+      "before_qc_covered_cells": 692,
+      "after_qc_covered_cells": 690,
+      "lost_covered_cells": 2,
+      "cells_repeated_across_retained_trajectories": 679,
+      "retained_cell_visit_count": 44582,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 56,
+              "covered_cells": 547,
+              "coverage": 0.6924050632911393
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 139,
+              "covered_cells": 664,
+              "coverage": 0.8405063291139241
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 278,
+              "covered_cells": 682,
+              "coverage": 0.8632911392405064
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 417,
+              "covered_cells": 689,
+              "coverage": 0.8721518987341772
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 556,
+              "covered_cells": 690,
+              "coverage": 0.8734177215189873
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 56,
+              "covered_cells": 590,
+              "coverage": 0.7468354430379747
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 139,
+              "covered_cells": 684,
+              "coverage": 0.8658227848101265
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 278,
+              "covered_cells": 686,
+              "coverage": 0.8683544303797468
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 417,
+              "covered_cells": 686,
+              "coverage": 0.8683544303797468
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 556,
+              "covered_cells": 690,
+              "coverage": 0.8734177215189873
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 56,
+              "covered_cells": 603,
+              "coverage": 0.7632911392405063
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 139,
+              "covered_cells": 624,
+              "coverage": 0.789873417721519
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 278,
+              "covered_cells": 679,
+              "coverage": 0.859493670886076
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 417,
+              "covered_cells": 680,
+              "coverage": 0.8607594936708861
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 556,
+              "covered_cells": 690,
+              "coverage": 0.8734177215189873
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00101-n8AnEznQQpv/n8AnEznQQpv.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00101-n8AnEznQQpv/n8AnEznQQpv.basis.glb",
+        "artifact_id": "navmesh:645196b449a9fff19a1af0c1ed4a0ef88e918189182486b997f4a5f3ed72df03",
+        "navmesh_sha256": "5ed4872dff453cd2d06ddd26566d7b105f1c466f493590e74a03985fca774cd7",
+        "grid_file": "645196b449a9fff19a1af0c1ed4a0ef88e918189182486b997f4a5f3ed72df03.npz",
+        "cells": 471,
+        "grid_area_m2": 29.4375,
+        "continuous_navmesh_area_m2": 30.131425857543945,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/645196b449a9fff19a1af0c1ed4a0ef88e918189182486b997f4a5f3ed72df03.npz",
+        "bytes": 1441,
+        "sha256": "5ef149cd05b3e3a0d1df5277743c7ebe525e332f0e9d4d3684519e892b9a2abc",
+        "crc64": "7607347173144660135"
+      },
+      "canonical_complete_trajectories": 161,
+      "retained_trajectories": 148,
+      "unmapped_trajectories": 0,
+      "raw_observations": 5561,
+      "unmapped_observations": 24,
+      "before_qc_covered_cells": 385,
+      "after_qc_covered_cells": 378,
+      "lost_covered_cells": 7,
+      "cells_repeated_across_retained_trajectories": 354,
+      "retained_cell_visit_count": 7674,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 15,
+              "covered_cells": 260,
+              "coverage": 0.5520169851380042
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 37,
+              "covered_cells": 341,
+              "coverage": 0.7239915074309978
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 74,
+              "covered_cells": 355,
+              "coverage": 0.7537154989384289
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 111,
+              "covered_cells": 366,
+              "coverage": 0.7770700636942676
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 148,
+              "covered_cells": 378,
+              "coverage": 0.802547770700637
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 15,
+              "covered_cells": 258,
+              "coverage": 0.5477707006369427
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 37,
+              "covered_cells": 338,
+              "coverage": 0.7176220806794055
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 74,
+              "covered_cells": 351,
+              "coverage": 0.7452229299363057
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 111,
+              "covered_cells": 371,
+              "coverage": 0.7876857749469215
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 148,
+              "covered_cells": 378,
+              "coverage": 0.802547770700637
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 15,
+              "covered_cells": 267,
+              "coverage": 0.5668789808917197
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 37,
+              "covered_cells": 323,
+              "coverage": 0.6857749469214437
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 74,
+              "covered_cells": 363,
+              "coverage": 0.7707006369426752
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 111,
+              "covered_cells": 372,
+              "coverage": 0.7898089171974523
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 148,
+              "covered_cells": 378,
+              "coverage": 0.802547770700637
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00752-vKuDtqxh7YQ/vKuDtqxh7YQ.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00752-vKuDtqxh7YQ/vKuDtqxh7YQ.basis.glb",
+        "artifact_id": "navmesh:73d76c3bda633cac00a0d1e30ad46746d74431f655dd4161a9b523cf62bb1f8d",
+        "navmesh_sha256": "29d35b5a09e4bc20994959e6713fd7e91d97d022d0d4e75a2c40615a748cde72",
+        "grid_file": "73d76c3bda633cac00a0d1e30ad46746d74431f655dd4161a9b523cf62bb1f8d.npz",
+        "cells": 1434,
+        "grid_area_m2": 89.625,
+        "continuous_navmesh_area_m2": 91.07612609863281,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/73d76c3bda633cac00a0d1e30ad46746d74431f655dd4161a9b523cf62bb1f8d.npz",
+        "bytes": 3336,
+        "sha256": "43de23c0446d8ed38ac17b2134102a05a2a1de48cffc92fccf9a81c0da8afd51",
+        "crc64": "2302685119471495936"
+      },
+      "canonical_complete_trajectories": 664,
+      "retained_trajectories": 599,
+      "unmapped_trajectories": 0,
+      "raw_observations": 26558,
+      "unmapped_observations": 196,
+      "before_qc_covered_cells": 1078,
+      "after_qc_covered_cells": 1068,
+      "lost_covered_cells": 10,
+      "cells_repeated_across_retained_trajectories": 1053,
+      "retained_cell_visit_count": 37283,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 60,
+              "covered_cells": 876,
+              "coverage": 0.6108786610878661
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 150,
+              "covered_cells": 1011,
+              "coverage": 0.7050209205020921
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 300,
+              "covered_cells": 1050,
+              "coverage": 0.7322175732217573
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 450,
+              "covered_cells": 1057,
+              "coverage": 0.7370990237099023
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 599,
+              "covered_cells": 1068,
+              "coverage": 0.7447698744769874
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 60,
+              "covered_cells": 878,
+              "coverage": 0.6122733612273361
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 150,
+              "covered_cells": 1004,
+              "coverage": 0.700139470013947
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 300,
+              "covered_cells": 1043,
+              "coverage": 0.7273361227336123
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 450,
+              "covered_cells": 1067,
+              "coverage": 0.7440725244072525
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 599,
+              "covered_cells": 1068,
+              "coverage": 0.7447698744769874
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 60,
+              "covered_cells": 874,
+              "coverage": 0.6094839609483961
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 150,
+              "covered_cells": 959,
+              "coverage": 0.6687587168758717
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 300,
+              "covered_cells": 1047,
+              "coverage": 0.7301255230125523
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 450,
+              "covered_cells": 1063,
+              "coverage": 0.7412831241283124
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 599,
+              "covered_cells": 1068,
+              "coverage": 0.7447698744769874
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00152-EgzWe8N3jZG/EgzWe8N3jZG.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00152-EgzWe8N3jZG/EgzWe8N3jZG.basis.glb",
+        "artifact_id": "navmesh:77edda111da9c3d54319325828f5c49d1388e41ad156d671ab0b623d9d0f66bc",
+        "navmesh_sha256": "8b3507486d0efda56d1b162a8bc897ddf3041fdae1ed0a8ed9b9fde6f8a42e98",
+        "grid_file": "77edda111da9c3d54319325828f5c49d1388e41ad156d671ab0b623d9d0f66bc.npz",
+        "cells": 797,
+        "grid_area_m2": 49.8125,
+        "continuous_navmesh_area_m2": 50.49040222167969,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/77edda111da9c3d54319325828f5c49d1388e41ad156d671ab0b623d9d0f66bc.npz",
+        "bytes": 2008,
+        "sha256": "ea6c1aa2d16a68bad52b75f595f694669e68a7aec0441111406497a736f55ce6",
+        "crc64": "12038919705426384535"
+      },
+      "canonical_complete_trajectories": 924,
+      "retained_trajectories": 869,
+      "unmapped_trajectories": 0,
+      "raw_observations": 50572,
+      "unmapped_observations": 94,
+      "before_qc_covered_cells": 796,
+      "after_qc_covered_cells": 796,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 789,
+      "retained_cell_visit_count": 81977,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 87,
+              "covered_cells": 736,
+              "coverage": 0.9234629861982434
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 218,
+              "covered_cells": 784,
+              "coverage": 0.9836888331242158
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 435,
+              "covered_cells": 791,
+              "coverage": 0.9924717691342535
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 652,
+              "covered_cells": 794,
+              "coverage": 0.9962358845671268
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 869,
+              "covered_cells": 796,
+              "coverage": 0.998745294855709
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 87,
+              "covered_cells": 712,
+              "coverage": 0.8933500627352572
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 218,
+              "covered_cells": 779,
+              "coverage": 0.9774153074027604
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 435,
+              "covered_cells": 793,
+              "coverage": 0.9949811794228356
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 652,
+              "covered_cells": 795,
+              "coverage": 0.9974905897114178
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 869,
+              "covered_cells": 796,
+              "coverage": 0.998745294855709
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 87,
+              "covered_cells": 748,
+              "coverage": 0.9385194479297365
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 218,
+              "covered_cells": 777,
+              "coverage": 0.9749058971141782
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 435,
+              "covered_cells": 786,
+              "coverage": 0.986198243412798
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 652,
+              "covered_cells": 792,
+              "coverage": 0.9937264742785445
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 869,
+              "covered_cells": 796,
+              "coverage": 0.998745294855709
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00792-4tdJ3qe1x7P/4tdJ3qe1x7P.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00792-4tdJ3qe1x7P/4tdJ3qe1x7P.basis.glb",
+        "artifact_id": "navmesh:7e15a7118c6ca0a122b97e0facfe36c720abba73b69c8eaafd38701289b0ff71",
+        "navmesh_sha256": "43c198f435f18b4f015a48a9080a228386faac4b99476885d9ce00038e53d56c",
+        "grid_file": "7e15a7118c6ca0a122b97e0facfe36c720abba73b69c8eaafd38701289b0ff71.npz",
+        "cells": 33235,
+        "grid_area_m2": 2077.1875,
+        "continuous_navmesh_area_m2": 2089.503173828125,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/7e15a7118c6ca0a122b97e0facfe36c720abba73b69c8eaafd38701289b0ff71.npz",
+        "bytes": 60112,
+        "sha256": "233a7ce3de86f22991cc59905b980e2033082ee6bf1429041c4acec2c18620aa",
+        "crc64": "14134378137270832666"
+      },
+      "canonical_complete_trajectories": 1722,
+      "retained_trajectories": 1135,
+      "unmapped_trajectories": 0,
+      "raw_observations": 181534,
+      "unmapped_observations": 21,
+      "before_qc_covered_cells": 20770,
+      "after_qc_covered_cells": 18164,
+      "lost_covered_cells": 2606,
+      "cells_repeated_across_retained_trajectories": 16465,
+      "retained_cell_visit_count": 498177,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 114,
+              "covered_cells": 10307,
+              "coverage": 0.3101248683616669
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 284,
+              "covered_cells": 14586,
+              "coverage": 0.43887468030690535
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 568,
+              "covered_cells": 16717,
+              "coverage": 0.5029938318038213
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 852,
+              "covered_cells": 17734,
+              "coverage": 0.5335941026026779
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1135,
+              "covered_cells": 18164,
+              "coverage": 0.5465322701970814
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 114,
+              "covered_cells": 9961,
+              "coverage": 0.2997141567624492
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 284,
+              "covered_cells": 14567,
+              "coverage": 0.4383029938318038
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 568,
+              "covered_cells": 16817,
+              "coverage": 0.5060027079885663
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 852,
+              "covered_cells": 17640,
+              "coverage": 0.5307657589890176
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1135,
+              "covered_cells": 18164,
+              "coverage": 0.5465322701970814
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 114,
+              "covered_cells": 10639,
+              "coverage": 0.3201143372950203
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 284,
+              "covered_cells": 13861,
+              "coverage": 0.41706032796750414
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 568,
+              "covered_cells": 16402,
+              "coverage": 0.4935158718218745
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 852,
+              "covered_cells": 17638,
+              "coverage": 0.5307055814653227
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1135,
+              "covered_cells": 18164,
+              "coverage": 0.5465322701970814
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00664-u5atqC7vRCY/u5atqC7vRCY.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00664-u5atqC7vRCY/u5atqC7vRCY.basis.glb",
+        "artifact_id": "navmesh:84bb43f8cabf9316140912f76e1337f222507671a60983cb8d457d9902acbe32",
+        "navmesh_sha256": "3005d3339e6626150525b4998df5aa61eb9dae9539b6f53fa1f870c3b35a5af1",
+        "grid_file": "84bb43f8cabf9316140912f76e1337f222507671a60983cb8d457d9902acbe32.npz",
+        "cells": 871,
+        "grid_area_m2": 54.4375,
+        "continuous_navmesh_area_m2": 56.39958572387695,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/84bb43f8cabf9316140912f76e1337f222507671a60983cb8d457d9902acbe32.npz",
+        "bytes": 2212,
+        "sha256": "6e06fc8741472dc9415a9d655fb5b895a83b3c3e0cdee6f8ff54c690e1be843e",
+        "crc64": "427665174281128304"
+      },
+      "canonical_complete_trajectories": 2197,
+      "retained_trajectories": 1682,
+      "unmapped_trajectories": 0,
+      "raw_observations": 97205,
+      "unmapped_observations": 25,
+      "before_qc_covered_cells": 649,
+      "after_qc_covered_cells": 628,
+      "lost_covered_cells": 21,
+      "cells_repeated_across_retained_trajectories": 624,
+      "retained_cell_visit_count": 179806,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 169,
+              "covered_cells": 623,
+              "coverage": 0.7152698048220436
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 421,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 841,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1262,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1682,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 169,
+              "covered_cells": 586,
+              "coverage": 0.6727898966704937
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 421,
+              "covered_cells": 625,
+              "coverage": 0.7175660160734788
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 841,
+              "covered_cells": 625,
+              "coverage": 0.7175660160734788
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1262,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1682,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 169,
+              "covered_cells": 591,
+              "coverage": 0.6785304247990815
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 421,
+              "covered_cells": 622,
+              "coverage": 0.7141216991963261
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 841,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 1262,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 1682,
+              "covered_cells": 628,
+              "coverage": 0.7210103329506314
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00773-9K1WbyTZ456/9K1WbyTZ456.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00773-9K1WbyTZ456/9K1WbyTZ456.basis.glb",
+        "artifact_id": "navmesh:88494188dc179d6cda0976d03037cfd0988f46eac284232e90c6ea8ad4762380",
+        "navmesh_sha256": "396f96f609ce29d980d3af66996861dda889e3b3242709083694b5b84a239908",
+        "grid_file": "88494188dc179d6cda0976d03037cfd0988f46eac284232e90c6ea8ad4762380.npz",
+        "cells": 1388,
+        "grid_area_m2": 86.75,
+        "continuous_navmesh_area_m2": 89.07192993164062,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/88494188dc179d6cda0976d03037cfd0988f46eac284232e90c6ea8ad4762380.npz",
+        "bytes": 2917,
+        "sha256": "1ee18204df74ea25614bfc775c22dfb08dd164abd1422a52fc3f9bf72d214629",
+        "crc64": "243182542934888906"
+      },
+      "canonical_complete_trajectories": 337,
+      "retained_trajectories": 300,
+      "unmapped_trajectories": 0,
+      "raw_observations": 14808,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 1155,
+      "after_qc_covered_cells": 1147,
+      "lost_covered_cells": 8,
+      "cells_repeated_across_retained_trajectories": 1092,
+      "retained_cell_visit_count": 27921,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 30,
+              "covered_cells": 780,
+              "coverage": 0.5619596541786743
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 75,
+              "covered_cells": 965,
+              "coverage": 0.6952449567723343
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 150,
+              "covered_cells": 1049,
+              "coverage": 0.7557636887608069
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 225,
+              "covered_cells": 1108,
+              "coverage": 0.7982708933717579
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 300,
+              "covered_cells": 1147,
+              "coverage": 0.8263688760806917
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 30,
+              "covered_cells": 787,
+              "coverage": 0.5670028818443804
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 75,
+              "covered_cells": 989,
+              "coverage": 0.712536023054755
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 150,
+              "covered_cells": 1068,
+              "coverage": 0.7694524495677233
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 225,
+              "covered_cells": 1130,
+              "coverage": 0.8141210374639769
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 300,
+              "covered_cells": 1147,
+              "coverage": 0.8263688760806917
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 30,
+              "covered_cells": 735,
+              "coverage": 0.5295389048991355
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 75,
+              "covered_cells": 940,
+              "coverage": 0.6772334293948127
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 150,
+              "covered_cells": 1086,
+              "coverage": 0.7824207492795389
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 225,
+              "covered_cells": 1134,
+              "coverage": 0.8170028818443804
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 300,
+              "covered_cells": 1147,
+              "coverage": 0.8263688760806917
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00195-enfahKs8XHw/enfahKs8XHw.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00195-enfahKs8XHw/enfahKs8XHw.basis.glb",
+        "artifact_id": "navmesh:93ee9278528b85c67a7869897d4fef82fe0e6915a18cff6180aaa792752c200a",
+        "navmesh_sha256": "9ee93d9fb1d6ec35a737860754a48869a573e51436a218c2c103cfa038f230bf",
+        "grid_file": "93ee9278528b85c67a7869897d4fef82fe0e6915a18cff6180aaa792752c200a.npz",
+        "cells": 3398,
+        "grid_area_m2": 212.375,
+        "continuous_navmesh_area_m2": 214.55807495117188,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/93ee9278528b85c67a7869897d4fef82fe0e6915a18cff6180aaa792752c200a.npz",
+        "bytes": 6333,
+        "sha256": "e2b5439ab32e864ff13c2014762e4cc03e8b568a4b1d5c7418f94282721377ff",
+        "crc64": "7103042752824906777"
+      },
+      "canonical_complete_trajectories": 12101,
+      "retained_trajectories": 10569,
+      "unmapped_trajectories": 0,
+      "raw_observations": 647121,
+      "unmapped_observations": 389,
+      "before_qc_covered_cells": 3282,
+      "after_qc_covered_cells": 3282,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 3279,
+      "retained_cell_visit_count": 1851658,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 1057,
+              "covered_cells": 3229,
+              "coverage": 0.9502648616833431
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2643,
+              "covered_cells": 3277,
+              "coverage": 0.9643908181283107
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 5285,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7927,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 10569,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 1057,
+              "covered_cells": 3234,
+              "coverage": 0.951736315479694
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2643,
+              "covered_cells": 3251,
+              "coverage": 0.9567392583872867
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 5285,
+              "covered_cells": 3279,
+              "coverage": 0.9649793996468511
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7927,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 10569,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 1057,
+              "covered_cells": 3241,
+              "coverage": 0.953796350794585
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2643,
+              "covered_cells": 3272,
+              "coverage": 0.96291936433196
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 5285,
+              "covered_cells": 3278,
+              "coverage": 0.964685108887581
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7927,
+              "covered_cells": 3279,
+              "coverage": 0.9649793996468511
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 10569,
+              "covered_cells": 3282,
+              "coverage": 0.9658622719246616
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00102-r77mpaAYUEc/r77mpaAYUEc.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00102-r77mpaAYUEc/r77mpaAYUEc.basis.glb",
+        "artifact_id": "navmesh:a563659df0b99afe4a2f0464a3f3dd01d1ae09ecec94b150b0de9a7eb3e83c2f",
+        "navmesh_sha256": "850a8124a087f588ae40764273d639d10b0bc249d385ae93db51bfb83fb2543b",
+        "grid_file": "a563659df0b99afe4a2f0464a3f3dd01d1ae09ecec94b150b0de9a7eb3e83c2f.npz",
+        "cells": 1464,
+        "grid_area_m2": 91.5,
+        "continuous_navmesh_area_m2": 89.88655853271484,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/a563659df0b99afe4a2f0464a3f3dd01d1ae09ecec94b150b0de9a7eb3e83c2f.npz",
+        "bytes": 3404,
+        "sha256": "f3ac19aa874b18906dd9c0045e88f204b87ac8b78b31543ef59100cb9ad5aa51",
+        "crc64": "106834195323696195"
+      },
+      "canonical_complete_trajectories": 926,
+      "retained_trajectories": 820,
+      "unmapped_trajectories": 0,
+      "raw_observations": 45778,
+      "unmapped_observations": 18,
+      "before_qc_covered_cells": 1097,
+      "after_qc_covered_cells": 1097,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 1028,
+      "retained_cell_visit_count": 71873,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 82,
+              "covered_cells": 718,
+              "coverage": 0.49043715846994534
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 205,
+              "covered_cells": 900,
+              "coverage": 0.6147540983606558
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 410,
+              "covered_cells": 1079,
+              "coverage": 0.7370218579234973
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 615,
+              "covered_cells": 1089,
+              "coverage": 0.7438524590163934
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 820,
+              "covered_cells": 1097,
+              "coverage": 0.7493169398907104
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 82,
+              "covered_cells": 777,
+              "coverage": 0.5307377049180327
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 205,
+              "covered_cells": 907,
+              "coverage": 0.619535519125683
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 410,
+              "covered_cells": 1045,
+              "coverage": 0.7137978142076503
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 615,
+              "covered_cells": 1091,
+              "coverage": 0.7452185792349727
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 820,
+              "covered_cells": 1097,
+              "coverage": 0.7493169398907104
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 82,
+              "covered_cells": 816,
+              "coverage": 0.5573770491803278
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 205,
+              "covered_cells": 960,
+              "coverage": 0.6557377049180327
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 410,
+              "covered_cells": 1066,
+              "coverage": 0.7281420765027322
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 615,
+              "covered_cells": 1078,
+              "coverage": 0.7363387978142076
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 820,
+              "covered_cells": 1097,
+              "coverage": 0.7493169398907104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00460-LViDMxZp4ZN/LViDMxZp4ZN.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00460-LViDMxZp4ZN/LViDMxZp4ZN.basis.glb",
+        "artifact_id": "navmesh:a9e66fb4613ceba572de3748ffba78de468596d0f69d4d87f3f4bf4972306a98",
+        "navmesh_sha256": "ef3c9c28fbb0cd59e8669a8b819c3bfaa30ef340c7969926155609bec141cf80",
+        "grid_file": "a9e66fb4613ceba572de3748ffba78de468596d0f69d4d87f3f4bf4972306a98.npz",
+        "cells": 410,
+        "grid_area_m2": 25.625,
+        "continuous_navmesh_area_m2": 24.908748626708984,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/a9e66fb4613ceba572de3748ffba78de468596d0f69d4d87f3f4bf4972306a98.npz",
+        "bytes": 1272,
+        "sha256": "b1df72126ad89dc4cf42fe7245b207db8d7479e05cb728b14960c080a5fea1bf",
+        "crc64": "17706169574408320804"
+      },
+      "canonical_complete_trajectories": 100,
+      "retained_trajectories": 84,
+      "unmapped_trajectories": 0,
+      "raw_observations": 4170,
+      "unmapped_observations": 4,
+      "before_qc_covered_cells": 182,
+      "after_qc_covered_cells": 181,
+      "lost_covered_cells": 1,
+      "cells_repeated_across_retained_trajectories": 174,
+      "retained_cell_visit_count": 4721,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 9,
+              "covered_cells": 129,
+              "coverage": 0.3146341463414634
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 21,
+              "covered_cells": 143,
+              "coverage": 0.348780487804878
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 42,
+              "covered_cells": 150,
+              "coverage": 0.36585365853658536
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 63,
+              "covered_cells": 177,
+              "coverage": 0.4317073170731707
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 84,
+              "covered_cells": 181,
+              "coverage": 0.44146341463414634
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 9,
+              "covered_cells": 100,
+              "coverage": 0.24390243902439024
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 21,
+              "covered_cells": 145,
+              "coverage": 0.35365853658536583
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 42,
+              "covered_cells": 149,
+              "coverage": 0.36341463414634145
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 63,
+              "covered_cells": 153,
+              "coverage": 0.37317073170731707
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 84,
+              "covered_cells": 181,
+              "coverage": 0.44146341463414634
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 9,
+              "covered_cells": 120,
+              "coverage": 0.2926829268292683
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 21,
+              "covered_cells": 134,
+              "coverage": 0.32682926829268294
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 42,
+              "covered_cells": 177,
+              "coverage": 0.4317073170731707
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 63,
+              "covered_cells": 181,
+              "coverage": 0.44146341463414634
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 84,
+              "covered_cells": 181,
+              "coverage": 0.44146341463414634
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00716-VaEwVD182FS/VaEwVD182FS.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00716-VaEwVD182FS/VaEwVD182FS.basis.glb",
+        "artifact_id": "navmesh:ac2d1e00b8a383328787143ada2ed9487c737ee7865413d6800f911e941653d6",
+        "navmesh_sha256": "59a4f6ac45ce101baffa0e13fe66800c71c6f2352e49fe3db2b94e6907e2d414",
+        "grid_file": "ac2d1e00b8a383328787143ada2ed9487c737ee7865413d6800f911e941653d6.npz",
+        "cells": 282,
+        "grid_area_m2": 17.625,
+        "continuous_navmesh_area_m2": 18.44306755065918,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/ac2d1e00b8a383328787143ada2ed9487c737ee7865413d6800f911e941653d6.npz",
+        "bytes": 1053,
+        "sha256": "c33e73ab3f7d2f25a08c3cce63f16576496bb05217002e8f18b7c09642e3bae6",
+        "crc64": "13906046846215116040"
+      },
+      "canonical_complete_trajectories": 473,
+      "retained_trajectories": 453,
+      "unmapped_trajectories": 0,
+      "raw_observations": 21937,
+      "unmapped_observations": 31,
+      "before_qc_covered_cells": 282,
+      "after_qc_covered_cells": 282,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 282,
+      "retained_cell_visit_count": 23769,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 46,
+              "covered_cells": 260,
+              "coverage": 0.9219858156028369
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 114,
+              "covered_cells": 270,
+              "coverage": 0.9574468085106383
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 227,
+              "covered_cells": 280,
+              "coverage": 0.9929078014184397
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 340,
+              "covered_cells": 282,
+              "coverage": 1.0
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 453,
+              "covered_cells": 282,
+              "coverage": 1.0
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 46,
+              "covered_cells": 265,
+              "coverage": 0.9397163120567376
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 114,
+              "covered_cells": 279,
+              "coverage": 0.9893617021276596
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 227,
+              "covered_cells": 282,
+              "coverage": 1.0
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 340,
+              "covered_cells": 282,
+              "coverage": 1.0
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 453,
+              "covered_cells": 282,
+              "coverage": 1.0
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 46,
+              "covered_cells": 267,
+              "coverage": 0.9468085106382979
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 114,
+              "covered_cells": 275,
+              "coverage": 0.975177304964539
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 227,
+              "covered_cells": 281,
+              "coverage": 0.9964539007092199
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 340,
+              "covered_cells": 281,
+              "coverage": 0.9964539007092199
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 453,
+              "covered_cells": 282,
+              "coverage": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00024-XNoaAZwsWKk/XNoaAZwsWKk.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00024-XNoaAZwsWKk/XNoaAZwsWKk.basis.glb",
+        "artifact_id": "navmesh:ad96f4c21962437631eb91c8b34bccd0ee0d148d1155bd5ef051ec8143e81b7f",
+        "navmesh_sha256": "322d8b7fff53cc28fff73a1ca3528472d3a97f88733aff5ad03e92607336c019",
+        "grid_file": "ad96f4c21962437631eb91c8b34bccd0ee0d148d1155bd5ef051ec8143e81b7f.npz",
+        "cells": 1850,
+        "grid_area_m2": 115.625,
+        "continuous_navmesh_area_m2": 118.36853790283203,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/ad96f4c21962437631eb91c8b34bccd0ee0d148d1155bd5ef051ec8143e81b7f.npz",
+        "bytes": 4028,
+        "sha256": "93437f6f0e21e3c30df4883f7de8c0e3b366310380b378af7c569438558c71a9",
+        "crc64": "16049512608203298925"
+      },
+      "canonical_complete_trajectories": 143,
+      "retained_trajectories": 108,
+      "unmapped_trajectories": 0,
+      "raw_observations": 4841,
+      "unmapped_observations": 132,
+      "before_qc_covered_cells": 1366,
+      "after_qc_covered_cells": 969,
+      "lost_covered_cells": 397,
+      "cells_repeated_across_retained_trajectories": 750,
+      "retained_cell_visit_count": 6548,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 11,
+              "covered_cells": 338,
+              "coverage": 0.1827027027027027
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 27,
+              "covered_cells": 563,
+              "coverage": 0.3043243243243243
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 54,
+              "covered_cells": 790,
+              "coverage": 0.42702702702702705
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 81,
+              "covered_cells": 934,
+              "coverage": 0.5048648648648648
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 108,
+              "covered_cells": 969,
+              "coverage": 0.5237837837837838
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 11,
+              "covered_cells": 323,
+              "coverage": 0.1745945945945946
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 27,
+              "covered_cells": 477,
+              "coverage": 0.2578378378378378
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 54,
+              "covered_cells": 762,
+              "coverage": 0.4118918918918919
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 81,
+              "covered_cells": 884,
+              "coverage": 0.47783783783783784
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 108,
+              "covered_cells": 969,
+              "coverage": 0.5237837837837838
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 11,
+              "covered_cells": 405,
+              "coverage": 0.21891891891891893
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 27,
+              "covered_cells": 639,
+              "coverage": 0.34540540540540543
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 54,
+              "covered_cells": 809,
+              "coverage": 0.43729729729729727
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 81,
+              "covered_cells": 833,
+              "coverage": 0.4502702702702703
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 108,
+              "covered_cells": 969,
+              "coverage": 0.5237837837837838
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00376-wxixLWuvLjd/wxixLWuvLjd.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00376-wxixLWuvLjd/wxixLWuvLjd.basis.glb",
+        "artifact_id": "navmesh:b51c3673f0bd010aad4dae91b6d64f80d97d357fca5f0678fb95c829763a99f4",
+        "navmesh_sha256": "194f9fa60534fb898eafe8003a5343f114a90a70aa93ae7266def6695385321b",
+        "grid_file": "b51c3673f0bd010aad4dae91b6d64f80d97d357fca5f0678fb95c829763a99f4.npz",
+        "cells": 311,
+        "grid_area_m2": 19.4375,
+        "continuous_navmesh_area_m2": 19.486248016357422,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/b51c3673f0bd010aad4dae91b6d64f80d97d357fca5f0678fb95c829763a99f4.npz",
+        "bytes": 1152,
+        "sha256": "37b251a5b176421db3aae551c473eee0ff77b814ce175538bad9d17e44d160ca",
+        "crc64": "14256633754913589523"
+      },
+      "canonical_complete_trajectories": 84,
+      "retained_trajectories": 75,
+      "unmapped_trajectories": 0,
+      "raw_observations": 2881,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 188,
+      "after_qc_covered_cells": 187,
+      "lost_covered_cells": 1,
+      "cells_repeated_across_retained_trajectories": 152,
+      "retained_cell_visit_count": 4760,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 8,
+              "covered_cells": 117,
+              "coverage": 0.3762057877813505
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 19,
+              "covered_cells": 124,
+              "coverage": 0.3987138263665595
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 38,
+              "covered_cells": 147,
+              "coverage": 0.47266881028938906
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 57,
+              "covered_cells": 186,
+              "coverage": 0.5980707395498392
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 75,
+              "covered_cells": 187,
+              "coverage": 0.6012861736334405
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 8,
+              "covered_cells": 118,
+              "coverage": 0.37942122186495175
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 19,
+              "covered_cells": 144,
+              "coverage": 0.4630225080385852
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 38,
+              "covered_cells": 146,
+              "coverage": 0.4694533762057878
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 57,
+              "covered_cells": 174,
+              "coverage": 0.5594855305466238
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 75,
+              "covered_cells": 187,
+              "coverage": 0.6012861736334405
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 8,
+              "covered_cells": 118,
+              "coverage": 0.37942122186495175
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 19,
+              "covered_cells": 127,
+              "coverage": 0.40836012861736337
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 38,
+              "covered_cells": 132,
+              "coverage": 0.42443729903536975
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 57,
+              "covered_cells": 185,
+              "coverage": 0.594855305466238
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 75,
+              "covered_cells": 187,
+              "coverage": 0.6012861736334405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00255-NGyoyh91xXJ/NGyoyh91xXJ.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00255-NGyoyh91xXJ/NGyoyh91xXJ.basis.glb",
+        "artifact_id": "navmesh:b5f2aae0bc66d34869acef0f0e5151caffdef57f8530dcd6af6397b04479b530",
+        "navmesh_sha256": "b654671ed52be16e31afb7171ac9f016096399167b51b657b12889d9d7c35b47",
+        "grid_file": "b5f2aae0bc66d34869acef0f0e5151caffdef57f8530dcd6af6397b04479b530.npz",
+        "cells": 457,
+        "grid_area_m2": 28.5625,
+        "continuous_navmesh_area_m2": 29.753772735595703,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/b5f2aae0bc66d34869acef0f0e5151caffdef57f8530dcd6af6397b04479b530.npz",
+        "bytes": 1375,
+        "sha256": "16a7284cb745c9fd50a1105c9158e251328cfa64f7da465c2295ea76cda12779",
+        "crc64": "8910345838048445068"
+      },
+      "canonical_complete_trajectories": 5296,
+      "retained_trajectories": 4498,
+      "unmapped_trajectories": 0,
+      "raw_observations": 301833,
+      "unmapped_observations": 2711,
+      "before_qc_covered_cells": 437,
+      "after_qc_covered_cells": 437,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 437,
+      "retained_cell_visit_count": 450772,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 450,
+              "covered_cells": 436,
+              "coverage": 0.9540481400437637
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1125,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2249,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3374,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4498,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 450,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1125,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2249,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3374,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4498,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 450,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1125,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2249,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3374,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4498,
+              "covered_cells": 437,
+              "coverage": 0.9562363238512035
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00135-HeSYRw7eMtG/HeSYRw7eMtG.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00135-HeSYRw7eMtG/HeSYRw7eMtG.basis.glb",
+        "artifact_id": "navmesh:c7b2bf753431501146bac1f15795c53aaeb22079674cb651977bdfa78914bc9f",
+        "navmesh_sha256": "3ca3f5de1d2a940275a41a8d74e47f1c4702a954be09edb21644d88b73a099a8",
+        "grid_file": "c7b2bf753431501146bac1f15795c53aaeb22079674cb651977bdfa78914bc9f.npz",
+        "cells": 1256,
+        "grid_area_m2": 78.5,
+        "continuous_navmesh_area_m2": 78.66694641113281,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/c7b2bf753431501146bac1f15795c53aaeb22079674cb651977bdfa78914bc9f.npz",
+        "bytes": 2891,
+        "sha256": "e6049c71fd3307a31e7a890e850e1eee86adc78cf50a6c5b10ea8f9eada688a6",
+        "crc64": "7199764171806270466"
+      },
+      "canonical_complete_trajectories": 5745,
+      "retained_trajectories": 5362,
+      "unmapped_trajectories": 0,
+      "raw_observations": 234891,
+      "unmapped_observations": 87,
+      "before_qc_covered_cells": 1223,
+      "after_qc_covered_cells": 1215,
+      "lost_covered_cells": 8,
+      "cells_repeated_across_retained_trajectories": 1209,
+      "retained_cell_visit_count": 469941,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 537,
+              "covered_cells": 1195,
+              "coverage": 0.9514331210191083
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1341,
+              "covered_cells": 1203,
+              "coverage": 0.9578025477707006
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2681,
+              "covered_cells": 1215,
+              "coverage": 0.9673566878980892
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4022,
+              "covered_cells": 1215,
+              "coverage": 0.9673566878980892
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 5362,
+              "covered_cells": 1215,
+              "coverage": 0.9673566878980892
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 537,
+              "covered_cells": 1164,
+              "coverage": 0.9267515923566879
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1341,
+              "covered_cells": 1207,
+              "coverage": 0.9609872611464968
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2681,
+              "covered_cells": 1208,
+              "coverage": 0.9617834394904459
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4022,
+              "covered_cells": 1209,
+              "coverage": 0.9625796178343949
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 5362,
+              "covered_cells": 1215,
+              "coverage": 0.9673566878980892
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 537,
+              "covered_cells": 1190,
+              "coverage": 0.947452229299363
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1341,
+              "covered_cells": 1207,
+              "coverage": 0.9609872611464968
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2681,
+              "covered_cells": 1208,
+              "coverage": 0.9617834394904459
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4022,
+              "covered_cells": 1209,
+              "coverage": 0.9625796178343949
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 5362,
+              "covered_cells": 1215,
+              "coverage": 0.9673566878980892
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00475-g7hUFVNac26/g7hUFVNac26.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00475-g7hUFVNac26/g7hUFVNac26.basis.glb",
+        "artifact_id": "navmesh:c7f5cbf4f5a82c789c8bb2ebb0ec077c282d20d531c31f07a24878c1f54f34ca",
+        "navmesh_sha256": "4acecafd359103625805769032ec180ae27fd3107e85e11b1677aa920998ebd9",
+        "grid_file": "c7f5cbf4f5a82c789c8bb2ebb0ec077c282d20d531c31f07a24878c1f54f34ca.npz",
+        "cells": 2149,
+        "grid_area_m2": 134.3125,
+        "continuous_navmesh_area_m2": 137.322021484375,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/c7f5cbf4f5a82c789c8bb2ebb0ec077c282d20d531c31f07a24878c1f54f34ca.npz",
+        "bytes": 4613,
+        "sha256": "5e106f3229ab0a53835f036264e228b1fead583a2e0446150077365296ba92f1",
+        "crc64": "17197521680735419084"
+      },
+      "canonical_complete_trajectories": 7402,
+      "retained_trajectories": 6204,
+      "unmapped_trajectories": 0,
+      "raw_observations": 559500,
+      "unmapped_observations": 688,
+      "before_qc_covered_cells": 2107,
+      "after_qc_covered_cells": 2106,
+      "lost_covered_cells": 1,
+      "cells_repeated_across_retained_trajectories": 2090,
+      "retained_cell_visit_count": 946491,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 621,
+              "covered_cells": 1962,
+              "coverage": 0.9129827826896231
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1551,
+              "covered_cells": 2053,
+              "coverage": 0.9553280595625873
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3102,
+              "covered_cells": 2098,
+              "coverage": 0.9762680316426244
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4653,
+              "covered_cells": 2100,
+              "coverage": 0.9771986970684039
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 6204,
+              "covered_cells": 2106,
+              "coverage": 0.9799906933457422
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 621,
+              "covered_cells": 1960,
+              "coverage": 0.9120521172638436
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1551,
+              "covered_cells": 2052,
+              "coverage": 0.9548627268496975
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3102,
+              "covered_cells": 2084,
+              "coverage": 0.9697533736621684
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4653,
+              "covered_cells": 2105,
+              "coverage": 0.9795253606328524
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 6204,
+              "covered_cells": 2106,
+              "coverage": 0.9799906933457422
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 621,
+              "covered_cells": 1821,
+              "coverage": 0.847370870172173
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1551,
+              "covered_cells": 1992,
+              "coverage": 0.9269427640763146
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3102,
+              "covered_cells": 2081,
+              "coverage": 0.9683573755234993
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 4653,
+              "covered_cells": 2095,
+              "coverage": 0.9748720335039553
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 6204,
+              "covered_cells": 2106,
+              "coverage": 0.9799906933457422
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00496-eWKqgQbVZow/eWKqgQbVZow.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00496-eWKqgQbVZow/eWKqgQbVZow.basis.glb",
+        "artifact_id": "navmesh:cb0b9821a821475234f2114a7e81d4c6ece9540bde1358ca46db805049a7267e",
+        "navmesh_sha256": "98c4246ad6c496e7bb505dfb2a732c24ee8cd4b574b648228be579980d7a41da",
+        "grid_file": "cb0b9821a821475234f2114a7e81d4c6ece9540bde1358ca46db805049a7267e.npz",
+        "cells": 296,
+        "grid_area_m2": 18.5,
+        "continuous_navmesh_area_m2": 19.105131149291992,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/cb0b9821a821475234f2114a7e81d4c6ece9540bde1358ca46db805049a7267e.npz",
+        "bytes": 1096,
+        "sha256": "0613dc406088942ab9e1fb546973fe00b4117ee64d43d80b77f52cc2f7ca74ba",
+        "crc64": "17571368749205049217"
+      },
+      "canonical_complete_trajectories": 313,
+      "retained_trajectories": 163,
+      "unmapped_trajectories": 0,
+      "raw_observations": 13615,
+      "unmapped_observations": 30,
+      "before_qc_covered_cells": 267,
+      "after_qc_covered_cells": 263,
+      "lost_covered_cells": 4,
+      "cells_repeated_across_retained_trajectories": 253,
+      "retained_cell_visit_count": 9850,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 196,
+              "coverage": 0.6621621621621622
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 41,
+              "covered_cells": 230,
+              "coverage": 0.777027027027027
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 82,
+              "covered_cells": 254,
+              "coverage": 0.8581081081081081
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 123,
+              "covered_cells": 258,
+              "coverage": 0.8716216216216216
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 163,
+              "covered_cells": 263,
+              "coverage": 0.8885135135135135
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 222,
+              "coverage": 0.75
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 41,
+              "covered_cells": 238,
+              "coverage": 0.8040540540540541
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 82,
+              "covered_cells": 256,
+              "coverage": 0.8648648648648649
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 123,
+              "covered_cells": 259,
+              "coverage": 0.875
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 163,
+              "covered_cells": 263,
+              "coverage": 0.8885135135135135
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 197,
+              "coverage": 0.6655405405405406
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 41,
+              "covered_cells": 242,
+              "coverage": 0.8175675675675675
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 82,
+              "covered_cells": 261,
+              "coverage": 0.8817567567567568
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 123,
+              "covered_cells": 263,
+              "coverage": 0.8885135135135135
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 163,
+              "covered_cells": 263,
+              "coverage": 0.8885135135135135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00543-1k479icNeHW/1k479icNeHW.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00543-1k479icNeHW/1k479icNeHW.basis.glb",
+        "artifact_id": "navmesh:e2cf86cfe3b54245e5230b4d4f715e03106262ac2ce28898d3142e93c2794328",
+        "navmesh_sha256": "e909b75aa12295cfa0e0b24e0a321a067d40365315263c0db03aeb3882253574",
+        "grid_file": "e2cf86cfe3b54245e5230b4d4f715e03106262ac2ce28898d3142e93c2794328.npz",
+        "cells": 1527,
+        "grid_area_m2": 95.4375,
+        "continuous_navmesh_area_m2": 93.90177917480469,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/e2cf86cfe3b54245e5230b4d4f715e03106262ac2ce28898d3142e93c2794328.npz",
+        "bytes": 3409,
+        "sha256": "841a7cf99686b5547fcf85cc26130293b4a39984694ad42ebb7427dd5644303f",
+        "crc64": "4122804258638006352"
+      },
+      "canonical_complete_trajectories": 5406,
+      "retained_trajectories": 4026,
+      "unmapped_trajectories": 0,
+      "raw_observations": 425643,
+      "unmapped_observations": 74,
+      "before_qc_covered_cells": 1443,
+      "after_qc_covered_cells": 1438,
+      "lost_covered_cells": 5,
+      "cells_repeated_across_retained_trajectories": 1428,
+      "retained_cell_visit_count": 684950,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 403,
+              "covered_cells": 1327,
+              "coverage": 0.8690242305173543
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1007,
+              "covered_cells": 1383,
+              "coverage": 0.9056974459724951
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2013,
+              "covered_cells": 1403,
+              "coverage": 0.9187950229207597
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3020,
+              "covered_cells": 1405,
+              "coverage": 0.9201047806155861
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4026,
+              "covered_cells": 1438,
+              "coverage": 0.9417157825802227
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 403,
+              "covered_cells": 1366,
+              "coverage": 0.8945645055664702
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1007,
+              "covered_cells": 1399,
+              "coverage": 0.9161755075311068
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2013,
+              "covered_cells": 1404,
+              "coverage": 0.9194499017681729
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3020,
+              "covered_cells": 1438,
+              "coverage": 0.9417157825802227
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4026,
+              "covered_cells": 1438,
+              "coverage": 0.9417157825802227
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 403,
+              "covered_cells": 1300,
+              "coverage": 0.8513425016371972
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1007,
+              "covered_cells": 1433,
+              "coverage": 0.9384413883431565
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 2013,
+              "covered_cells": 1437,
+              "coverage": 0.9410609037328095
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 3020,
+              "covered_cells": 1437,
+              "coverage": 0.9410609037328095
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 4026,
+              "covered_cells": 1438,
+              "coverage": 0.9417157825802227
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00254-YMNvYDhK8mB/YMNvYDhK8mB.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00254-YMNvYDhK8mB/YMNvYDhK8mB.basis.glb",
+        "artifact_id": "navmesh:e631b97808851650c82b0d1e091ec3dfa748bd7867021495ab51139ce1c30fb3",
+        "navmesh_sha256": "cd46d13b6330609db4b1d7afa9253604570f59242f5188d3e6643d00c6c34de4",
+        "grid_file": "e631b97808851650c82b0d1e091ec3dfa748bd7867021495ab51139ce1c30fb3.npz",
+        "cells": 758,
+        "grid_area_m2": 47.375,
+        "continuous_navmesh_area_m2": 47.27875518798828,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/e631b97808851650c82b0d1e091ec3dfa748bd7867021495ab51139ce1c30fb3.npz",
+        "bytes": 1954,
+        "sha256": "f2726317c187643958780aed573aeaeee77c25bdbbf3fa9cac8d4a6828bed312",
+        "crc64": "14847538442675564002"
+      },
+      "canonical_complete_trajectories": 9614,
+      "retained_trajectories": 7310,
+      "unmapped_trajectories": 0,
+      "raw_observations": 559544,
+      "unmapped_observations": 144,
+      "before_qc_covered_cells": 758,
+      "after_qc_covered_cells": 756,
+      "lost_covered_cells": 2,
+      "cells_repeated_across_retained_trajectories": 753,
+      "retained_cell_visit_count": 777354,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 731,
+              "covered_cells": 726,
+              "coverage": 0.9577836411609498
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1828,
+              "covered_cells": 749,
+              "coverage": 0.9881266490765171
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3655,
+              "covered_cells": 752,
+              "coverage": 0.9920844327176781
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5483,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7310,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 731,
+              "covered_cells": 713,
+              "coverage": 0.9406332453825857
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1828,
+              "covered_cells": 754,
+              "coverage": 0.9947229551451188
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3655,
+              "covered_cells": 755,
+              "coverage": 0.996042216358839
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5483,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7310,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 731,
+              "covered_cells": 709,
+              "coverage": 0.9353562005277045
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1828,
+              "covered_cells": 734,
+              "coverage": 0.9683377308707124
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3655,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5483,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7310,
+              "covered_cells": 756,
+              "coverage": 0.9973614775725593
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00536-QFjJExB2jgE/QFjJExB2jgE.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00536-QFjJExB2jgE/QFjJExB2jgE.basis.glb",
+        "artifact_id": "navmesh:eab7d25dd5dde63762cdfd9b13444451394228275526215a11196fedd6e1a783",
+        "navmesh_sha256": "a9e7003af8776984a2410d3ef54b41519a859d939bf2017ff470697aa7850bcd",
+        "grid_file": "eab7d25dd5dde63762cdfd9b13444451394228275526215a11196fedd6e1a783.npz",
+        "cells": 1244,
+        "grid_area_m2": 77.75,
+        "continuous_navmesh_area_m2": 78.4698257446289,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/eab7d25dd5dde63762cdfd9b13444451394228275526215a11196fedd6e1a783.npz",
+        "bytes": 2997,
+        "sha256": "6247e9e1ea71a3b8f2edcd161a523eb1050b6865fa3853e6298c170f6f4292eb",
+        "crc64": "7600040104927205077"
+      },
+      "canonical_complete_trajectories": 284,
+      "retained_trajectories": 169,
+      "unmapped_trajectories": 0,
+      "raw_observations": 13146,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 1019,
+      "after_qc_covered_cells": 576,
+      "lost_covered_cells": 443,
+      "cells_repeated_across_retained_trajectories": 382,
+      "retained_cell_visit_count": 9718,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 219,
+              "coverage": 0.1760450160771704
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 43,
+              "covered_cells": 395,
+              "coverage": 0.317524115755627
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 85,
+              "covered_cells": 548,
+              "coverage": 0.4405144694533762
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 127,
+              "covered_cells": 549,
+              "coverage": 0.4413183279742765
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 169,
+              "covered_cells": 576,
+              "coverage": 0.4630225080385852
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 309,
+              "coverage": 0.24839228295819935
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 43,
+              "covered_cells": 449,
+              "coverage": 0.3609324758842444
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 85,
+              "covered_cells": 576,
+              "coverage": 0.4630225080385852
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 127,
+              "covered_cells": 576,
+              "coverage": 0.4630225080385852
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 169,
+              "covered_cells": 576,
+              "coverage": 0.4630225080385852
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 17,
+              "covered_cells": 327,
+              "coverage": 0.2628617363344051
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 43,
+              "covered_cells": 343,
+              "coverage": 0.2757234726688103
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 85,
+              "covered_cells": 371,
+              "coverage": 0.2982315112540193
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 127,
+              "covered_cells": 524,
+              "coverage": 0.4212218649517685
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 169,
+              "covered_cells": 576,
+              "coverage": 0.4630225080385852
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00219-P6ajptD9tRP/P6ajptD9tRP.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00219-P6ajptD9tRP/P6ajptD9tRP.basis.glb",
+        "artifact_id": "navmesh:ee6db4339eb75b5808da235db89bee8f5eb3af33815dafeb49881a1bb0191d5b",
+        "navmesh_sha256": "4f08efbb4c521da290bbc3814d38d19245dbf6ce636f93c694306f938739dc1e",
+        "grid_file": "ee6db4339eb75b5808da235db89bee8f5eb3af33815dafeb49881a1bb0191d5b.npz",
+        "cells": 651,
+        "grid_area_m2": 40.6875,
+        "continuous_navmesh_area_m2": 40.1134033203125,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/ee6db4339eb75b5808da235db89bee8f5eb3af33815dafeb49881a1bb0191d5b.npz",
+        "bytes": 1819,
+        "sha256": "eddd8731dfb0402d5f7060f20d7e4c892016e84b5f8366e9c78ced107271682c",
+        "crc64": "13366509223857625911"
+      },
+      "canonical_complete_trajectories": 145,
+      "retained_trajectories": 97,
+      "unmapped_trajectories": 0,
+      "raw_observations": 5607,
+      "unmapped_observations": 0,
+      "before_qc_covered_cells": 508,
+      "after_qc_covered_cells": 465,
+      "lost_covered_cells": 43,
+      "cells_repeated_across_retained_trajectories": 440,
+      "retained_cell_visit_count": 5499,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 10,
+              "covered_cells": 243,
+              "coverage": 0.37327188940092165
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 25,
+              "covered_cells": 325,
+              "coverage": 0.49923195084485406
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 49,
+              "covered_cells": 436,
+              "coverage": 0.6697388632872504
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 73,
+              "covered_cells": 454,
+              "coverage": 0.6973886328725039
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 97,
+              "covered_cells": 465,
+              "coverage": 0.7142857142857143
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 10,
+              "covered_cells": 283,
+              "coverage": 0.434715821812596
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 25,
+              "covered_cells": 333,
+              "coverage": 0.511520737327189
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 49,
+              "covered_cells": 433,
+              "coverage": 0.6651305683563749
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 73,
+              "covered_cells": 454,
+              "coverage": 0.6973886328725039
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 97,
+              "covered_cells": 465,
+              "coverage": 0.7142857142857143
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 10,
+              "covered_cells": 282,
+              "coverage": 0.43317972350230416
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 25,
+              "covered_cells": 370,
+              "coverage": 0.5683563748079877
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 49,
+              "covered_cells": 410,
+              "coverage": 0.6298003072196621
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 73,
+              "covered_cells": 458,
+              "coverage": 0.7035330261136713
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 97,
+              "covered_cells": 465,
+              "coverage": 0.7142857142857143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00707-XVSZJAtHKdi/XVSZJAtHKdi.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00707-XVSZJAtHKdi/XVSZJAtHKdi.basis.glb",
+        "artifact_id": "navmesh:f2c75d6230dd068c202aafcca2ec4a17ecb40e1b585953315d96919a4e421eae",
+        "navmesh_sha256": "3b5dec65304f9814b77a03c3534545a71626253990d0249775a3de37263f7d96",
+        "grid_file": "f2c75d6230dd068c202aafcca2ec4a17ecb40e1b585953315d96919a4e421eae.npz",
+        "cells": 2183,
+        "grid_area_m2": 136.4375,
+        "continuous_navmesh_area_m2": 139.79806518554688,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/f2c75d6230dd068c202aafcca2ec4a17ecb40e1b585953315d96919a4e421eae.npz",
+        "bytes": 4409,
+        "sha256": "bd0e51b6bda1270338a232ab2ecb62033607f00650bd9e37300ccc32c0b8f098",
+        "crc64": "4994189514618183857"
+      },
+      "canonical_complete_trajectories": 11058,
+      "retained_trajectories": 9467,
+      "unmapped_trajectories": 0,
+      "raw_observations": 727349,
+      "unmapped_observations": 266,
+      "before_qc_covered_cells": 2182,
+      "after_qc_covered_cells": 2169,
+      "lost_covered_cells": 13,
+      "cells_repeated_across_retained_trajectories": 2168,
+      "retained_cell_visit_count": 1648283,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 947,
+              "covered_cells": 2032,
+              "coverage": 0.9308291342189647
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2367,
+              "covered_cells": 2120,
+              "coverage": 0.9711406321575813
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 4734,
+              "covered_cells": 2146,
+              "coverage": 0.9830508474576272
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7101,
+              "covered_cells": 2169,
+              "coverage": 0.9935868071461291
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 9467,
+              "covered_cells": 2169,
+              "coverage": 0.9935868071461291
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 947,
+              "covered_cells": 2066,
+              "coverage": 0.9464040311497939
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2367,
+              "covered_cells": 2156,
+              "coverage": 0.9876316994961063
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 4734,
+              "covered_cells": 2168,
+              "coverage": 0.9931287219422813
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7101,
+              "covered_cells": 2169,
+              "coverage": 0.9935868071461291
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 9467,
+              "covered_cells": 2169,
+              "coverage": 0.9935868071461291
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 947,
+              "covered_cells": 2099,
+              "coverage": 0.9615208428767751
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 2367,
+              "covered_cells": 2159,
+              "coverage": 0.98900595510765
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 4734,
+              "covered_cells": 2165,
+              "coverage": 0.9917544663307375
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 7101,
+              "covered_cells": 2168,
+              "coverage": 0.9931287219422813
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 9467,
+              "covered_cells": 2169,
+              "coverage": 0.9935868071461291
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/val/00844-q5QZSEeHe5g/q5QZSEeHe5g.basis.glb",
+        "artifact_id": "navmesh:f4dda8987055c532607cc9613b13cdce4424ebe49a005bb403dfcafe769e4ac0",
+        "navmesh_sha256": "07f1164e6c3440911c68bec55f8be991db2f843e72c0dc49e6df4f9cdcf281a3",
+        "grid_file": "f4dda8987055c532607cc9613b13cdce4424ebe49a005bb403dfcafe769e4ac0.npz",
+        "cells": 1144,
+        "grid_area_m2": 71.5,
+        "continuous_navmesh_area_m2": 73.07271575927734,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/f4dda8987055c532607cc9613b13cdce4424ebe49a005bb403dfcafe769e4ac0.npz",
+        "bytes": 2748,
+        "sha256": "6a3defa12916f424329b342c6b9cf31a1cb24136434f6e7957d2d269ac5f8576",
+        "crc64": "1813424154592250157"
+      },
+      "canonical_complete_trajectories": 8595,
+      "retained_trajectories": 7901,
+      "unmapped_trajectories": 0,
+      "raw_observations": 474897,
+      "unmapped_observations": 1545,
+      "before_qc_covered_cells": 1094,
+      "after_qc_covered_cells": 1094,
+      "lost_covered_cells": 0,
+      "cells_repeated_across_retained_trajectories": 1089,
+      "retained_cell_visit_count": 649681,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 791,
+              "covered_cells": 1067,
+              "coverage": 0.9326923076923077
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1976,
+              "covered_cells": 1075,
+              "coverage": 0.9396853146853147
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3951,
+              "covered_cells": 1081,
+              "coverage": 0.9449300699300699
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5926,
+              "covered_cells": 1092,
+              "coverage": 0.9545454545454546
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7901,
+              "covered_cells": 1094,
+              "coverage": 0.9562937062937062
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 791,
+              "covered_cells": 1017,
+              "coverage": 0.888986013986014
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1976,
+              "covered_cells": 1085,
+              "coverage": 0.9484265734265734
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3951,
+              "covered_cells": 1092,
+              "coverage": 0.9545454545454546
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5926,
+              "covered_cells": 1094,
+              "coverage": 0.9562937062937062
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7901,
+              "covered_cells": 1094,
+              "coverage": 0.9562937062937062
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 791,
+              "covered_cells": 1025,
+              "coverage": 0.8959790209790209
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 1976,
+              "covered_cells": 1089,
+              "coverage": 0.9519230769230769
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 3951,
+              "covered_cells": 1089,
+              "coverage": 0.9519230769230769
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 5926,
+              "covered_cells": 1094,
+              "coverage": 0.9562937062937062
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 7901,
+              "covered_cells": 1094,
+              "coverage": 0.9562937062937062
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene_id": "hm3d/train/00050-wrq3kiEU4VR/wrq3kiEU4VR.basis.glb",
+      "navmesh": {
+        "scene_id": "/cpfs-normal/data-workspace/xuyuan/hm3d-r23-data-20261105/scene_datasets/hm3d/train/00050-wrq3kiEU4VR/wrq3kiEU4VR.basis.glb",
+        "artifact_id": "navmesh:ff9fd532ed5100cf9529b889d814e95d9a5e4477c711741598af4e92254703ea",
+        "navmesh_sha256": "e9d311761744f2be17defe7f19af24e54d6bba42488827dacaae7e8238b7b023",
+        "grid_file": "ff9fd532ed5100cf9529b889d814e95d9a5e4477c711741598af4e92254703ea.npz",
+        "cells": 2043,
+        "grid_area_m2": 127.6875,
+        "continuous_navmesh_area_m2": 129.96951293945312,
+        "height_bin_m": 0.25,
+        "uri": "oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/resources/navmesh-grids/ff9fd532ed5100cf9529b889d814e95d9a5e4477c711741598af4e92254703ea.npz",
+        "bytes": 4486,
+        "sha256": "a294affaebfac9fa3d5fe1f4b1dc4df0bb787da30a0553ad15e2439df7adea17",
+        "crc64": "9784524209566195077"
+      },
+      "canonical_complete_trajectories": 5248,
+      "retained_trajectories": 3855,
+      "unmapped_trajectories": 0,
+      "raw_observations": 393795,
+      "unmapped_observations": 71,
+      "before_qc_covered_cells": 1936,
+      "after_qc_covered_cells": 1918,
+      "lost_covered_cells": 18,
+      "cells_repeated_across_retained_trajectories": 1885,
+      "retained_cell_visit_count": 528031,
+      "growth_three_orders": [
+        {
+          "seed": 20261111,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 386,
+              "covered_cells": 1822,
+              "coverage": 0.8918257464512971
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 964,
+              "covered_cells": 1871,
+              "coverage": 0.9158100832109642
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1928,
+              "covered_cells": 1886,
+              "coverage": 0.9231522271169849
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 2892,
+              "covered_cells": 1891,
+              "coverage": 0.9255996084189917
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 3855,
+              "covered_cells": 1918,
+              "coverage": 0.9388154674498287
+            }
+          ]
+        },
+        {
+          "seed": 20261112,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 386,
+              "covered_cells": 1796,
+              "coverage": 0.8790993636808615
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 964,
+              "covered_cells": 1860,
+              "coverage": 0.9104258443465492
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1928,
+              "covered_cells": 1914,
+              "coverage": 0.9368575624082232
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 2892,
+              "covered_cells": 1918,
+              "coverage": 0.9388154674498287
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 3855,
+              "covered_cells": 1918,
+              "coverage": 0.9388154674498287
+            }
+          ]
+        },
+        {
+          "seed": 20261113,
+          "curve": [
+            {
+              "trajectory_fraction": 0.1,
+              "trajectories": 386,
+              "covered_cells": 1781,
+              "coverage": 0.8717572197748409
+            },
+            {
+              "trajectory_fraction": 0.25,
+              "trajectories": 964,
+              "covered_cells": 1876,
+              "coverage": 0.9182574645129711
+            },
+            {
+              "trajectory_fraction": 0.5,
+              "trajectories": 1928,
+              "covered_cells": 1893,
+              "coverage": 0.9265785609397944
+            },
+            {
+              "trajectory_fraction": 0.75,
+              "trajectories": 2892,
+              "covered_cells": 1918,
+              "coverage": 0.9388154674498287
+            },
+            {
+              "trajectory_fraction": 1.0,
+              "trajectories": 3855,
+              "covered_cells": 1918,
+              "coverage": 0.9388154674498287
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "all_manifest_scenes": 900,
+  "unmatched_resources": [],
+  "definition": "0.25 m XZ cell centers with 0.25 m height bins rasterized from actual NavMesh triangles. Count cell area (0.0625 m\u00b2); horizontal finite-segment radius 0.5 m, height difference <=0.25 m. Separate stacked floors remain distinct.",
+  "weighting": "area weighted: sum covered cells / sum available NavMesh cells; not equal scene weighting",
+  "scope": "Only locally available NavMeshes with matching sidecar SHA; missing scenes have no fabricated denominator."
+}

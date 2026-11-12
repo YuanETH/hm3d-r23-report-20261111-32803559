@@ -1,0 +1,1 @@
+document.querySelectorAll('.case').forEach(c=>{let v=c.querySelector('video');if(!v)return;c.querySelector('[data-speed]').addEventListener('change',e=>v.playbackRate=Number(e.target.value));c.querySelector('[data-tail]').addEventListener('click',()=>{v.currentTime=Math.max(0,v.duration-10)})});
