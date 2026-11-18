@@ -1,6 +1,6 @@
 # HM3D R23 数据接入（2026-11-18 联合码本）
 
-HM3D 与深圳质检保留轨迹共同拟合 K32、K64、RVQ，每条轨迹权重相同，所有对应标签重新编码。HM3D 是未划分训练、验证或测试集的 `generation_pool`，默认 `k64`。
+K32/K64 基于深圳与 HM3D 的质检保留轨迹联合拟合，每条轨迹等权基础上将 |左向位移|≥2.5 cm 的真实动作权重提高到 5 倍；RVQ 保持原来的逐轨迹等权联合码本。HM3D 是未划分训练、验证或测试集的 `generation_pool`，默认 `k64`。
 
 发布前缀：`oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/`
 
@@ -8,8 +8,8 @@ HM3D 与深圳质检保留轨迹共同拟合 K32、K64、RVQ，每条轨迹权�
 
 | 分支 | 码本 SHA256 | 索引 SHA256 |
 |---|---|---|
-| K32 | `2787d1e071033632e99be1de29b1e58e33f501bff0a2a98cfedbe712b0dcf6ce` | `249e9b334fbf2a4a2ec4900e82f15b569c831bd53e9c31e20abf8d01f39d2a8d` |
-| K64 | `ca975a90f2969c36f9173a95234fdf4a799e7e332a5649712a60782025c26e1c` | `4ec0e5e14ccb41338231ae4a26270de1d920f8cdeff561b66c7bccd1dd74e39b` |
+| K32 | `589c78646229561178e0fb0251a228dc0e4b2ee68f96bd7f3deee3710d4acac6` | `ec1f7c32d2d978efdc73b7f1b2ff4bb2ba54a85dfc578bbec427f585b6451a92` |
+| K64 | `a5ce5f61ccb23e5fba9d5d1191820f79e2a01b22fd4025d94c4e415e01cb5fa2` | `ab87e69524251a5e0131199de5cce1f814836c7daa8913ec087956fcf7ae8b37` |
 | RVQ | `8c8f595a61c63f35a83e7935c087debb188bcdc317753a20dcab43b4d9786e18` | `15c9b95cb83866a9fe9c796c863124178fa9439b7fc40e83b50bb51befa75e13` |
 
 训练索引依次为 `k32/TRAINING_INDEX.json`、`k64/TRAINING_INDEX.json`、`rvq/TRAINING_INDEX.json`；码本在各分支 `codebook.npz`。在授权 OSS 下载 `tools/reader.tar.gz` 并解压，使用例如：
