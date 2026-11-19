@@ -10,12 +10,12 @@
 
 `oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/`
 
-完成记录 `RELEASE_COMPLETE.json`，统一清单 `DATASETS.json`；默认 `k64`，`partition=generation_pool`、`split=null`，未划分 train/val/test。统一清单 SHA256：`3f798ea12ddd8634a842e86bda8f8550181f7d70cf4eb4564b46bf254efaa4e6`。
+完成记录 `RELEASE_COMPLETE.json`，统一清单 `DATASETS.json`；默认 `k64`，`partition=generation_pool`、`split=null`，未划分 train/val/test。统一清单 SHA256：`67854793374ab0b4f9f44949a4b545af8dc21e4037b07ca282d2e2a4595a37d8`。
 
 | 分支 | 码本 SHA256 | 训练索引 SHA256 |
 |---|---|---|
 | K32 | `589c78646229561178e0fb0251a228dc0e4b2ee68f96bd7f3deee3710d4acac6` | `ec1f7c32d2d978efdc73b7f1b2ff4bb2ba54a85dfc578bbec427f585b6451a92` |
-| K64 | `a5ce5f61ccb23e5fba9d5d1191820f79e2a01b22fd4025d94c4e415e01cb5fa2` | `ab87e69524251a5e0131199de5cce1f814836c7daa8913ec087956fcf7ae8b37` |
+| K64 | `b03891724cfab35bc174fab31a20c6e1161df704c0ae65be6961547882f18276` | `df7ef5ef93edde4582c1f7a47f1ec784c237dec18bfed07aa45d0f8087d20951` |
 | RVQ | `8c8f595a61c63f35a83e7935c087debb188bcdc317753a20dcab43b4d9786e18` | `15c9b95cb83866a9fe9c796c863124178fa9439b7fc40e83b50bb51befa75e13` |
 
 索引分别为 `k32/TRAINING_INDEX.json`、`k64/TRAINING_INDEX.json`、`rvq/TRAINING_INDEX.json`；各分支的 `codebook.npz` 为当前码本。详细训练入口见 [AI_ENTRY.md](https://yuaneth.github.io/hm3d-r23-report-20261111-32803559/downloads/AI_ENTRY.md)。
@@ -28,6 +28,10 @@ QC 保留 **1,940,232** 条、过滤 **364,453** 条，保留率 **84.19%**，�
 
 每个联合编码分支 **1,940,232 条轨迹、83,302,260 个节点、1,940,232 个 STOP**；成功合并跳过 36,605,133 个原始观测。
 
+## 2026-11-19 K64 多样性调整
+
+K64 保留56个码字，将密集直线区8个码字重新拟合到真实左右侧向动作，各侧4个。前向0.2–0.4m密集直线区由18码减为10码，侧向位移至少1cm的码字由10增至18；K64仍为每步1个动作token。K32、RVQ和深圳K256沿用当前版本。直线区平均位置误差由约2.8mm升至约5.2–5.3mm，HM3D和深圳整轨迹FDE均小幅下降，详见编码报告的完整对照。
+
 ## 全量开环误差与码频
 
 覆盖全部 **1,940,232 条轨迹、83,302,260 个节点**，每条轨迹等权。以真实起点开始逐个累积动作，中途不以真实位姿纠正；RVQ 每步使用 decoded[0]。ADE 包含起点，FDE 为终点水平位置误差。属于离线重建，不代表闭环策略或真机效果。
@@ -35,7 +39,7 @@ QC 保留 **1,940,232** 条、过滤 **364,453** 条，保留率 **84.19%**，�
 | 分支 | ADE 均值 m | FDE 均值 m | FDE P95 m |
 |---|---:|---:|---:|
 | K32 | 0.556 | 1.140 | 3.633 |
-| K64 | 0.359 | 0.734 | 2.358 |
+| K64 | 0.349 | 0.714 | 2.305 |
 | RVQ | 0.070 | 0.121 | 0.328 |
 
 侧向覆盖改善与普通节点误差的取舍见编码报告。全量码字使用频率及其他误差统计见 [统计文件](https://yuaneth.github.io/hm3d-r23-report-20261111-32803559/downloads/JOINT_FULL_METRICS.json) 和编码报告。
