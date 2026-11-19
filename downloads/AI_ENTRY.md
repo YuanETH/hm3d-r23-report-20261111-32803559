@@ -1,8 +1,8 @@
-# HM3D R23 数据接入（2026-11-18 联合码本）
+# HM3D R23 数据接入（2026-11-19 直行间距更新）
 
-K32/K64 基于深圳与 HM3D 的质检保留轨迹联合拟合，每条轨迹等权基础上将 |左向位移|≥2.5 cm 的真实动作权重提高到 5 倍；RVQ 保持原来的逐轨迹等权联合码本。HM3D 是未划分训练、验证或测试集的 `generation_pool`，默认 `k64`。
+K32/K64 使用深圳与 HM3D 的质检保留轨迹联合拟合，本版增加近直行至少5cm间距约束；RVQ 保持原来的逐轨迹等权联合码本。HM3D 是未划分训练、验证或测试集的 `generation_pool`，默认 `k64`。
 
-K64 于2026-11-19增加多样性：保留56个码字，将前向0.2–0.4m密集直线段的8个码字移到真实左右侧向动作，左右各4个；密集区18码减至10码，侧向至少1cm的码字由10增至18。K64仍为每步1个动作token，K32和RVQ沿用当前版本。
+K32/K64 近直行码字（|左向|<0.5cm且|转角|<3°）前进距离间隔至少5cm，分别保留13和16个；其他既有码字向量保持一致，释放的1和9个ID重新拟合到真实侧向动作；原始归一化、STOP及每步1个运动token保持一致；RVQ沿用当前联合码本。
 
 发布前缀：`oss://ss-oss1/data/user/yuanxu/vln_data/hm3d-r23-k3-bin1-20261105/_qc_releases/hm3d-qc-20261111T175811-32803559/`
 
@@ -10,8 +10,8 @@ K64 于2026-11-19增加多样性：保留56个码字，将前向0.2–0.4m密集
 
 | 分支 | 码本 SHA256 | 索引 SHA256 |
 |---|---|---|
-| K32 | `589c78646229561178e0fb0251a228dc0e4b2ee68f96bd7f3deee3710d4acac6` | `ec1f7c32d2d978efdc73b7f1b2ff4bb2ba54a85dfc578bbec427f585b6451a92` |
-| K64 | `b03891724cfab35bc174fab31a20c6e1161df704c0ae65be6961547882f18276` | `df7ef5ef93edde4582c1f7a47f1ec784c237dec18bfed07aa45d0f8087d20951` |
+| K32 | `0429002c179e4223b21a5faf5fd00ae18326f7cd5b2384be22dea9799cc0c16b` | `2577875b67beed1854d607707d40283d59862485dca2754169f878cc5ccd12ef` |
+| K64 | `5f633256e06b28b78da1a16c370c37711212d7146c20c12078e5cd38a446aeb7` | `de9946d7d0b066c980fa17e6e93764b5ba0e03d00b6dd416e23355053a254d13` |
 | RVQ | `8c8f595a61c63f35a83e7935c087debb188bcdc317753a20dcab43b4d9786e18` | `15c9b95cb83866a9fe9c796c863124178fa9439b7fc40e83b50bb51befa75e13` |
 
 训练索引依次为 `k32/TRAINING_INDEX.json`、`k64/TRAINING_INDEX.json`、`rvq/TRAINING_INDEX.json`；码本在各分支 `codebook.npz`。在授权 OSS 下载 `tools/reader.tar.gz` 并解压，使用例如：
